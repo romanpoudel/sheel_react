@@ -1,6 +1,11 @@
-const CustomLists = ({ items }: { items: string[][] }) => {
+interface CustomListsProps {
+  items: string[][]
+  
+}
+
+const CustomLists: React.FC<CustomListsProps> = ({ items }) => {
     return (
-      <div className="grid grid-cols-12 text-justify">
+      <div className="grid grid-cols-11 text-justify">
         {items.map((item, index) => (
           <div key={index} className={`col-span-11 lg:col-start-${index % 2 === 0 ? 1 : 7} lg:col-span-5`}>
             <ul className="list-disc pl-4 content-text-size">

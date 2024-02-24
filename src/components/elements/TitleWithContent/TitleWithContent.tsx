@@ -2,7 +2,7 @@ import  { ReactNode } from 'react';
 
 interface TitleWithContentProps {
     title: string;
-    children: ReactNode; // Adjusted to accept ReactNode
+    children?: ReactNode; // Adjusted to accept ReactNode
 }
 
 const TitleWithContent = ({ title, children }: TitleWithContentProps) => {

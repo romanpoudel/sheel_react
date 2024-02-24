@@ -3,7 +3,12 @@ import BituminousWaterproofingMembrane from "@/containers/BituminousWaterproofin
 import CementitiousWaterproofingMembrane from "@/containers/CementitiousWaterproofing/CementitiousWaterproofing";
 import Contact from "@/containers/Contact/Contact";
 import Home from "@/containers/Home/Home";
-import ProductsPage from "@/containers/Products/Products";
+import InjectionWaterproofing from "@/containers/InjectionWaterproofing/InjectionWaterproofing";
+import LiquidWaterproofingMembrane from "@/containers/LiquidWaterproofingMembrane/LiquidWaterproofingMembrane";
+import ProductsPage from "@/containers/Products/ProductsPage";
+import ServicesPage from "@/containers/Services/ServicesPage";
+import PolyurethaneWaterproofing from "@/containers/PolyurethaneWaterproofing/PolyurethaneWaterproofing";
+import RoofWaterproofing from "@/containers/RoofWaterproofing/RoofWaterproofing";
 
 export const publicRoutes = [
     {
@@ -26,6 +31,11 @@ export const publicRoutes = [
         
     },
     {
+        path:'services',
+        component: <ServicesPage />
+        
+    },
+    {
         path:'bituminouswaterproofingmembrane',
         component: <BituminousWaterproofingMembrane />
         
@@ -33,6 +43,26 @@ export const publicRoutes = [
     {
         path:'cementitiouswaterproofing',
         component: <CementitiousWaterproofingMembrane />
+        
+    },
+    {
+        path:'injectionwaterproofing',
+        component: <InjectionWaterproofing />
+        
+    },
+    {
+        path:'liquidwaterproofingmembrane',
+        component: <LiquidWaterproofingMembrane />
+        
+    },
+    {
+        path:'polyurethanewaterproofing',
+        component: <PolyurethaneWaterproofing />
+        
+    },
+    {
+        path:'roofwaterproofing',
+        component: <RoofWaterproofing />
         
     },
 

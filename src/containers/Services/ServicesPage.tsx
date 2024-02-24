@@ -1,10 +1,12 @@
-import CardWithImage from '@/components/elements/Card/CardThreeDImage'
-import TitleWithContent from '@/components/elements/TitleWithContent/TitleWithContent'
-
-const Products = () => {
+import CardWithImage from "@/components/elements/Card/CardThreeDImage";
+import TitleBar from "@/components/elements/TitleBar/TitleBar";
+import TitleWithContent from "@/components/elements/TitleWithContent/TitleWithContent";
+const ServicesPage = () => {
   return (
     <>
-    <TitleWithContent title="Waterproofing Chemical">
+      <TitleBar title="Our Services"></TitleBar>
+
+      <TitleWithContent title="Waterproofing Chemical">
         <div className="flex flex-wrap justify-center gap-12 lg:w-104">
           <CardWithImage
             imageUrl="../src/assets/dummy-img.jpg"
@@ -143,8 +145,8 @@ const Products = () => {
           />
         </div>
       </TitleWithContent>
-      </>
-  )
-}
+    </>
+  );
+};
 
-export default Products
+export default ServicesPage;
