@@ -1,5 +1,10 @@
 import { Input } from "@/components/ui/input"
+interface InputBoxInterface {
+  id?: string;
+  type?: string;
+  placeholder?: string;
+} 
 
-export function InputBox({placeholder}: {placeholder: string}) {
-  return <Input type="email" placeholder={placeholder} />
+export const InputBox: React.FC<InputBoxInterface> = ({ type, placeholder, id }) => {
+  return <Input type={type} placeholder={placeholder} id={id}/>
 }

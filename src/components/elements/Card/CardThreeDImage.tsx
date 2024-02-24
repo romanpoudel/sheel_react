@@ -1,4 +1,4 @@
-import { CardContainer, CardBody, CardItem } from "../../ui/3d-card";
+import { CardContainer, CardBody, CardItem } from "../../ui/cardthreedimension";
 
 const CardWithImage = ({ cardTitle, cardContent, imageUrl }: { cardTitle: string; cardContent: string; imageUrl: string }) => {
   return (
@@ -13,7 +13,7 @@ const CardWithImage = ({ cardTitle, cardContent, imageUrl }: { cardTitle: string
             <CardItem
               as="p"
               translateZ="5"
-              className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300 text-justify"
+              className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300 text-justify line-clamp-4"
             >
               {cardContent}
             </CardItem>

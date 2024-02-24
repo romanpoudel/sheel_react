@@ -1,7 +1,11 @@
-import '../../../index.css' 
+import '../../../index.css'
+
+
+
 const Footer = () => {
     return (
         <>
+            
             <footer className="footer p-10 text-white bg-purple-900  pt-10 px-8 lg:px-32">
                 <aside>
                     <figure className="w-20"><img src="./src/assets/img/logo.svg" alt="logo" /></figure>

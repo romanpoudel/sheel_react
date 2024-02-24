@@ -1,4 +1,4 @@
-import { CardContainer, CardBody, CardItem } from "../../ui/3d-card";
+import { CardContainer, CardBody, CardItem } from "../../ui/cardthreedimension";
 
 type CardWithoutImageProps = {
   cardTitle: string;
@@ -18,7 +18,7 @@ const CardWithoutImage: React.FC<CardWithoutImageProps> = ({ cardTitle, cardCont
           rotateX={5}
         >
           <h2 className="text-xl font-semibold mb-2 animate-bounce text-center">{cardTitle}</h2>
-          <p className="font-semibold text-center">
+          <p className="font-semibold text-center line-clamp-2">
             {cardContent}
           </p>
         </CardItem>
