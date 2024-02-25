@@ -16,7 +16,7 @@ const VistaSuperCrete = () => {
 
             <ImageWithContentLeft
                 title="Description"
-                imageUrl="./src/assets/dummy-img.jpg"
+                imageUrl="../src/assets/dummy-img.jpg"
                 content="Visto Super (lreote is on ocrylic polymer bosed Cenrentitious costing ond repoiring compounds when used os recommended, combines with cement ond fine sond lo torm r:n impernreoble costing by blocking the copillories ond pores of the subslrote of concrete il is olso LJV resistont."
             />
 

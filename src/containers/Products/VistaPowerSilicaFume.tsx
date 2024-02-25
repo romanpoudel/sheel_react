@@ -14,7 +14,7 @@ const VistaPowerSilicaFume = () => {
                 subtitle="(HYBRID TECHNOLOGY SILICA FUME)"
             />
             <ImageWithContentLeft
-                imageUrl="./src/assets/dummy-img.jpg"
+                imageUrl="../src/assets/dummy-img.jpg"
                 title="Description"
                 content="VISTA POWER SILICA FUME is a densified silica fume formulated to produce extremely strong, durable concrete. VISTA PowerX silica fume meets the requirements of ASTM C 1240."
             />

@@ -75,7 +75,7 @@ const Products: React.FC = () => {
         "This method involves the use of cement-based coatings or additives to create a waterproof barrier. It is often used for concrete structures and can be applied to both the positive and negative sides of walls.",
     },
     {
-      linkUrl: "/products/vista-flex-seal-it",
+      linkUrl: "/products/vista-seal-it",
       imageUrl: "../src/assets/dummy-img.jpg",
       cardTitle: "Vista Seal IT",
       cardContent:

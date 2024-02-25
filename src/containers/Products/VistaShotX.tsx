@@ -16,7 +16,7 @@ const VistaShotX = () => {
 
             <ImageWithContentLeft
                 title="Description"
-                imageUrl="./src/assets/dummy-img.jpg"
+                imageUrl="../src/assets/dummy-img.jpg"
                 content="A ready to use alkali free accelerator in powder form for use with dry gunite mixes. It allows spraying to take place even on wet surfaces subject to slight infiltration"
             />
 

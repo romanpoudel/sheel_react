@@ -1,29 +1,30 @@
-import SheetMembranes from "@/components/elements/SheetMembranes/SheetMembranes";
 import About from "@/containers/About/About";
-import BituminousWaterproofingMembrane from "@/containers/BituminousWaterproofingMembrane/BituminousWaterproofingMembrane";
-import CementitiousWaterproofingMembrane from "@/containers/CementitiousWaterproofing/CementitiousWaterproofing";
+import BituminousWaterproofingMembrane from "@/containers/Services/BituminousWaterproofingMembrane";
+import CementitiousWaterproofingMembrane from "@/containers/Services/CementitiousWaterproofing";
 import Contact from "@/containers/Contact/Contact";
 import ContactUsPage from "@/containers/Contact/ContactUsPage";
-import Geomembranes from "@/containers/Geomembranes/Geomembranes";
 import Home from "@/containers/Home/Home";
-import InjectionWaterproofing from "@/containers/InjectionWaterproofing/InjectionWaterproofing";
-import LiquidWaterproofingMembrane from "@/containers/LiquidWaterproofingMembrane/LiquidWaterproofingMembrane";
-import PolyurethaneWaterproofing from "@/containers/PolyurethaneWaterproofing/PolyurethaneWaterproofing";
+import InjectionWaterproofing from "@/containers/Services/InjectionWaterproofing";
+import LiquidWaterproofingMembrane from "@/containers/Services/LiquidWaterproofingMembrane";
+import PolyurethaneWaterproofing from "@/containers/Services/PolyurethaneWaterproofing";
 import ProductsPage from "@/containers/Products/ProductsPage";
-import RoofWaterproofing from "@/containers/RoofWaterproofing/RoofWaterproofing";
+import RoofWaterproofing from "@/containers/Services/RoofWaterproofing";
+import Geomembranes from "@/containers/Services/Geomembranes";
 import ServicesPage from "@/containers/Services/ServicesPage";
-import VistaAfaSuper from "@/containers/VistaAfaSuper/VistaAfaSuper";
-import VistaCrystalPlus from "@/containers/VistaCrystalPlus/VistaCrystalPlus";
-import VistaFlexSealPlus from "@/containers/VistaFlexSealPlus/VistaFlexSealPlus";
-import VistaIwa from "@/containers/VistaIwa/VistaIwa";
-import VistaNoThree from "@/containers/VistaNoThree/VistaNoThree";
-import VistaNoTwo from "@/containers/VistaNoTwo/VistaNoTwo";
-import VistaPowerSilicaFume from "@/containers/VistaPowerSilicaFume/VistaPowerSilicaFume";
-import VistaSbrLatexPlus from "@/containers/VistaSbrLatexPlus/VistaSbrLatexPlus";
-import VistaShotX from "@/containers/VistaShotX/VistaShotX";
-import VistaSuperCrete from "@/containers/VistaSuperCrete/VistaSuperCrete";
-import VistaSuperPlastHs from "@/containers/VistaSuperplastHs/VistaSuperplastHs";
-import VistaSuperplastHs1000 from "@/containers/VistaSuperplastHs1000/VistaSuperplastHs1000";
+import SheetMembranes from "@/containers/Services/SheetMembranes";
+import VistaAfaSuper from "@/containers/Products/VistaAfaSuper";
+import VistaCrystalPlus from "@/containers/Products/VistaCrystalPlus";
+import VistaFlexSealPlus from "@/containers/Products/VistaFlexSealPlus";
+import VistaIwa from "@/containers/Products/VistaIwa";
+import VistaNoThree from "@/containers/Products/VistaNoThree";
+import VistaNoTwo from "@/containers/Products/VistaNoTwo";
+import VistaPowerSilicaFume from "@/containers/Products/VistaPowerSilicaFume";
+import VistaSbrLatexPlus from "@/containers/Products/VistaSbrLatexPlus";
+import VistaShotX from "@/containers/Products/VistaShotX";
+import VistaSuperCrete from "@/containers/Products/VistaSuperCrete";
+import VistaSuperPlastHs from "@/containers/Products/VistaSuperplastHs";
+import VistaSuperplastHs1000 from "@/containers/Products/VistaSuperplastHs1000";
+import VistaSealIt from "@/containers/Products/VistaSealIt";
 
 export const publicRoutes = [
   {
@@ -48,27 +49,27 @@ export const publicRoutes = [
   },
 
   {
-    path: "bituminous-waterproofing-membrane",
+    path: "services/bituminous-waterproofing-membrane",
     component: <BituminousWaterproofingMembrane />,
   },
   {
-    path: "cementitious-waterproofing",
+    path: "services/cementitious-waterproofing",
     component: <CementitiousWaterproofingMembrane />,
   },
   {
-    path: "injection-waterproofing",
+    path: "services/injection-waterproofing",
     component: <InjectionWaterproofing />,
   },
   {
-    path: "liquid-waterproofing-membrane",
+    path: "services/liquid-waterproofing-membrane",
     component: <LiquidWaterproofingMembrane />,
   },
   {
-    path: "polyurethane-waterproofing",
+    path: "services/polyurethane-waterproofing",
     component: <PolyurethaneWaterproofing />,
   },
   {
-    path: "roof-waterproofing",
+    path: "services/roof-waterproofing",
     component: <RoofWaterproofing />,
   },
   {
@@ -120,11 +121,15 @@ export const publicRoutes = [
     component: <VistaSuperplastHs1000 />,
   },
   {
-    path: "products/geomembranes",
+    path: "products/vista-seal-it",
+    component: <VistaSealIt />,
+  },
+  {
+    path: "services/geomembranes",
     component: <Geomembranes />,
   },
   {
-    path: "products/sheet-membranes",
+    path: "services/sheet-membranes",
     component: <SheetMembranes />,
   },
 ];

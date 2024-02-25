@@ -12,7 +12,7 @@ const VistaAfaSuper = () => {
             <TitleBar title="Vista Afa Super" />
             < ImageWithContentLeft
                 title="Description"
-                imageUrl="./src/assets/dummy-img.jpg"
+                imageUrl="../../../src/assets/dummy-img.jpg"
                 content="Dr Vista AFA Super is an alkali free accelerator especially used for wet shotcrete applications. It starts up a sudden drop of slump and a thixotropic effect at the time of spraying. The reaction with cement particles is immediate. Dr Vista AFA Super can be used in combination with Dr Vista superplasticizers."
             />
             <TitleWithContent title="Advantages">
@@ -58,36 +58,36 @@ const VistaAfaSuper = () => {
 
             <TitleWithContent title="Properties">
 
-               <Table
-               items = {{
-                headings: [],
-                rows:[
-                    [
-                        "Appearence / Color",
-                        "Off White Liquid",
-                    ],
-                    [
-                        "Relative Density",
-                        "1.44 ± 0.03",
-                    ],
-                    [
-                        "pH value",
-                        "2.5 ± 0.5",
-                    ],
-                    [
-                        "Chloride Content",
-                        "0.1%",
-                    ],
-                    [
-                        "Alkali Content",
-                        "1%/B",
-                    ],
-                    
-                ]
-               }
-               }
-               
-               />
+                <Table
+                    items={{
+                        headings: [],
+                        rows: [
+                            [
+                                "Appearence / Color",
+                                "Off White Liquid",
+                            ],
+                            [
+                                "Relative Density",
+                                "1.44 ± 0.03",
+                            ],
+                            [
+                                "pH value",
+                                "2.5 ± 0.5",
+                            ],
+                            [
+                                "Chloride Content",
+                                "0.1%",
+                            ],
+                            [
+                                "Alkali Content",
+                                "1%/B",
+                            ],
+
+                        ]
+                    }
+                    }
+
+                />
             </TitleWithContent>
 
             <TitleWithContent title="Compactibility">

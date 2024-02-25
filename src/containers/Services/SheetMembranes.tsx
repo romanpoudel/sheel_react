@@ -1,4 +1,4 @@
-import PageNotFound from '../PageNotFound/PageNotFound'
+import PageNotFound from '@/components/elements/PageNotFound/PageNotFound'
 
 const SheetMembranes = () => {
   return (

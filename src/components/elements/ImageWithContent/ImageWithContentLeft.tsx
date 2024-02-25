@@ -2,7 +2,7 @@ const ImageWithContentLeft = ({ imageUrl, title, content }: { imageUrl: string, 
     return (
 
         <>
-            <div className="grid grid-cols-11">
+            <div className="grid grid-cols-11  px-8 lg:px-32">
                 <div className="col-span-11 lg:col-span-5">
                     <figure className="">
                         <img className="rounded-lg" src={imageUrl} alt="" />
