@@ -1,9 +1,15 @@
-interface TableProps{
+import React from 'react';
+
+interface TableProps {
+  items: {
     headings?: string[];
     rows: string[][];
+  };
 }
 
-const Table: React.FC<TableProps> = ({ headings = [], rows}) => {
+const Table: React.FC<TableProps> = ({ items }) => {
+  const { headings, rows } = items;
+
   return (
     <div className="overflow-x-auto pt-10">
       <table className="table z-0 content-text-size text-justify">
