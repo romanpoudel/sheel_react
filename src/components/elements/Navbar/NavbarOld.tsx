@@ -1,8 +1,10 @@
-import { Input } from '@/components/ui/input';
-import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Input } from "@/components/ui/input";
+import { useSearch } from "@/hooks/useSearch";
+import { useState } from "react";
+import { Link } from "react-router-dom";
 
 function NavbarOld() {
+  const searchContext = useSearch();
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   const toggleDropdown = () => {
@@ -38,11 +40,15 @@ function NavbarOld() {
             </div>
             <ul
               // tabIndex="0"
-              className={`menu menu-sm dropdown-content p-2 z-[2] shadow bg-purple-900 rounded-box w-60 ${isDropdownOpen ? 'block' : 'hidden'
-                }`}
+              className={`menu menu-sm dropdown-content p-2 z-[2] shadow bg-purple-900 rounded-box w-60 ${
+                isDropdownOpen ? "block" : "hidden"
+              }`}
             >
               {/* Nav links */}
-              <li className="navbar-item cursor-pointer" data-page="./pages/index_content.html">
+              <li
+                className="navbar-item cursor-pointer"
+                data-page="./pages/index_content.html"
+              >
                 <a>Home</a>
               </li>
               <li
@@ -66,14 +72,23 @@ function NavbarOld() {
                   <ul className="p-2">
                     {/* Nested details */}
                     <details x-data="{ open: false }" className="p-2">
-                      <summary onClick={toggleDropdown} className="cursor-pointer">
+                      <summary
+                        onClick={toggleDropdown}
+                        className="cursor-pointer"
+                      >
                         Waterproofing Chemical
                       </summary>
                       <ul className="nested-list pt-2" /*x-show="open"*/>
-                        <li className="navbar-item cursor-pointer" data-page="./pages/vista_iwa.html">
+                        <li
+                          className="navbar-item cursor-pointer"
+                          data-page="./pages/vista_iwa.html"
+                        >
                           <a>Vista - IWA</a>
                         </li>
-                        <li className="navbar-item cursor-pointer" data-page="./pages/vista_iwa.html">
+                        <li
+                          className="navbar-item cursor-pointer"
+                          data-page="./pages/vista_iwa.html"
+                        >
                           <a>Vista - IWA</a>
                         </li>
                         {/* Other items */}
@@ -120,20 +135,26 @@ function NavbarOld() {
             <li>
               <Link to="/">services</Link>
             </li>
-            
+
             {/* Products */}
             <li>
               <details>
-                <summary className="navbar-item cursor-pointer" data-page="./pages/products.html">
+                <summary
+                  className="navbar-item cursor-pointer"
+                  data-page="./pages/products.html"
+                >
                   <Link to="/products">Our Products</Link>
                 </summary>
                 <ul className="p-2 bg-purple-900" style={{ margin: 0 }}>
                   {/* Nested details */}
                   <details x-data="{ open: false }" className="p-2">
-                    <summary onClick={toggleDropdown} className="cursor-pointer">
+                    <summary
+                      onClick={toggleDropdown}
+                      className="cursor-pointer"
+                    >
                       Crystallizing
                     </summary>
-                    <ul className="p-2 nested-list" >
+                    <ul className="p-2 nested-list">
                       <li>
                         <Link to="/">hari</Link>
                       </li>
@@ -160,6 +181,13 @@ function NavbarOld() {
             type="text"
             id="searchInput"
             placeholder="Search"
+            style={{ color: "#000" }}
+            value={searchContext?.searchQuery ?? ""}
+            onChange={(e) => {
+              if (searchContext) {
+                searchContext.handleSetSearchQuery(e.target.value);
+              }
+            }}
           />
         </div>
       </div>
