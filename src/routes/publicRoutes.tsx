@@ -12,6 +12,7 @@ import RoofWaterproofing from "@/containers/RoofWaterproofing/RoofWaterproofing"
 import VistaAfaSuper from "@/containers/VistaAfaSuper/VistaAfaSuper";
 import VistaCrystalPlus from "@/containers/VistaCrystalPlus/VistaCrystalPlus";
 import VistaFlexSealPlus from "@/containers/VistaFlexSealPlus/VistaFlexSealPlus";
+import VistaIwa from "@/containers/VistaIwa/VistaIwa";
 
 export const publicRoutes = [
     {
@@ -81,6 +82,11 @@ export const publicRoutes = [
     {
         path:'vistaflexsealplus',
         component: <VistaFlexSealPlus />
+        
+    },
+    {
+        path:'vistaiwa',
+        component: <VistaIwa />
         
     },
 
