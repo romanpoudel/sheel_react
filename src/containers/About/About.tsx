@@ -5,8 +5,6 @@ import TitleWithContent from "@/components/elements/TitleWithContent/TitleWithCo
 const About = () => {
   return (
     <>
-      <TitleBarMin title="About Us" />
-
       <TitleWithContent title="About Us">
 
       </TitleWithContent>

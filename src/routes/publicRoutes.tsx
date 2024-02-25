@@ -1,7 +1,6 @@
 import About from "@/containers/About/About";
 import BituminousWaterproofingMembrane from "@/containers/Services/BituminousWaterproofingMembrane";
 import CementitiousWaterproofingMembrane from "@/containers/Services/CementitiousWaterproofing";
-import Contact from "@/containers/Contact/Contact";
 import ContactUsPage from "@/containers/Contact/ContactUsPage";
 import Home from "@/containers/Home/Home";
 import InjectionWaterproofing from "@/containers/Services/InjectionWaterproofing";
@@ -25,6 +24,7 @@ import VistaSuperCrete from "@/containers/Products/VistaSuperCrete";
 import VistaSuperPlastHs from "@/containers/Products/VistaSuperplastHs";
 import VistaSuperplastHs1000 from "@/containers/Products/VistaSuperplastHs1000";
 import VistaSealIt from "@/containers/Products/VistaSealIt";
+import AboutUsPage from "@/containers/About/AboutUsPage";
 
 export const publicRoutes = [
   {
@@ -33,7 +33,7 @@ export const publicRoutes = [
   },
   {
     path: "about",
-    component: <About />,
+    component: <AboutUsPage />,
   },
   {
     path: "contact",
