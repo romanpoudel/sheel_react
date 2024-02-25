@@ -15,7 +15,7 @@ const Table: React.FC<TableProps> = ({ items }) => {
       <table className="table z-0 content-text-size text-justify">
         <thead>
           <tr className="bg-purple-900 text-white">
-            {headings.map((heading, index) => (
+            {headings?.map((heading, index) => (
               <th key={index}>{heading}</th>
             ))}
           </tr>

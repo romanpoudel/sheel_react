@@ -10,6 +10,7 @@ import ServicesPage from "@/containers/Services/ServicesPage";
 import PolyurethaneWaterproofing from "@/containers/PolyurethaneWaterproofing/PolyurethaneWaterproofing";
 import RoofWaterproofing from "@/containers/RoofWaterproofing/RoofWaterproofing";
 import VistaAfaSuper from "@/containers/VistaAfaSuper/VistaAfaSuper";
+import VistaCrystalPlus from "@/containers/VistaCrystalPlus/VistaCrystalPlus";
 
 export const publicRoutes = [
     {
@@ -69,6 +70,11 @@ export const publicRoutes = [
     {
         path:'vistaafasuper',
         component: <VistaAfaSuper />
+        
+    },
+    {
+        path:'vistacrystalplus',
+        component: <VistaCrystalPlus />
         
     },
 
