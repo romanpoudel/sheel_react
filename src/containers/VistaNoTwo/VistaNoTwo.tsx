@@ -91,8 +91,6 @@ const VistaNoTwo = () => {
                     ]}
                 />
 
-
-
                 <Table
                     items={{
                         headings: [],

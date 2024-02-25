@@ -14,6 +14,7 @@ import VistaCrystalPlus from "@/containers/VistaCrystalPlus/VistaCrystalPlus";
 import VistaFlexSealPlus from "@/containers/VistaFlexSealPlus/VistaFlexSealPlus";
 import VistaIwa from "@/containers/VistaIwa/VistaIwa";
 import VistaNoTwo from "@/containers/VistaNoTwo/VistaNoTwo";
+import VistaNoThree from "@/containers/VistaNoThree/VistaNoThree";
 
 export const publicRoutes = [
     {
@@ -93,6 +94,11 @@ export const publicRoutes = [
     {
         path:'vistanotwo',
         component: <VistaNoTwo />
+        
+    },
+    {
+        path:'vistanothree',
+        component: <VistaNoThree />
         
     },
 
