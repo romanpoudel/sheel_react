@@ -16,6 +16,7 @@ import VistaIwa from "@/containers/VistaIwa/VistaIwa";
 import VistaNoTwo from "@/containers/VistaNoTwo/VistaNoTwo";
 import VistaNoThree from "@/containers/VistaNoThree/VistaNoThree";
 import VistaPowerSilicaFume from "@/containers/VistaPowerSilicaFume/VistaPowerSilicaFume";
+import VistaSbrLatexPlus from "@/containers/VistaSbrLatexPlus/VistaSbrLatexPlus";
 
 export const publicRoutes = [
     {
@@ -90,6 +91,10 @@ export const publicRoutes = [
     {
         path:'vistapowersilicafume',
         component: <VistaPowerSilicaFume />
+    },
+    {
+        path:'vistasbrlatexplus',
+        component: <VistaSbrLatexPlus />
     },
 
     
