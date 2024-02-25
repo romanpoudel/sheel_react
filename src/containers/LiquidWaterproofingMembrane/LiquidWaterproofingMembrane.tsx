@@ -22,42 +22,31 @@ const LiquidWaterproofingMembrane = () => {
                     items={[
                         {
                             title: "Flat Roofs:",
-                            content: [
-                                "Ideal for flat roofs to create a continuous and seamless waterproofing layer, preventing water seepage."
-                            ]
+                            content: ["Ideal for flat roofs to create a continuous and seamless waterproofing layer, preventing water seepage."]
                         },
                         {
                             title: "Basements:",
-                            content: [
-                                "Applied to basement walls and floors to create a waterproof barrier, preventing moisture infiltration."
-                            ]
+                            content: ["Applied to basement walls and floors to create a waterproof barrier, preventing moisture infiltration."]
                         },
                         {
                             title: "Balconies and Terraces:",
-                            content: [
-                                "Provides a durable waterproof coating for balconies and terraces, safeguarding against weathering and moisture."
-                            ]
+                            content: ["Provides a durable waterproof coating for balconies and terraces, safeguarding against weathering and moisture."]
                         },
                         {
                             title: "Wet Areas:",
-                            content: [
-                                "Suitable for wet areas like bathrooms and kitchens, forming a seamless waterproofing layer around fixtures and surfaces."
-                            ]
+                            content: ["Suitable for wet areas like bathrooms and kitchens, forming a seamless waterproofing layer around fixtures and surfaces."]
                         },
                         {
                             title: "Podiums and Decks:",
-                            content: [
-                                "Ensures reliable waterproofing for podiums and decks, protecting underlying structures from water damage."
-                            ]
+                            content: ["Ensures reliable waterproofing for podiums and decks, protecting underlying structures from water damage."]
                         },
                         {
                             title: "Concrete Structures:",
-                            content: [
-                                "Used on various concrete structures, including bridges and retaining walls, to enhance water resistance."
-                            ]
+                            content: ["Used on various concrete structures, including bridges and retaining walls, to enhance water resistance."]
                         }
                     ]}
                 />
+
 
 
 

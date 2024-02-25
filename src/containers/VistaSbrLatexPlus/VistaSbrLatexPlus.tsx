@@ -5,7 +5,6 @@ import Paragraph from '@/components/elements/Paragraph/Paragraph'
 import Table from '@/components/elements/Table/Table'
 import TitleBar from '@/components/elements/TitleBar/TitleBar'
 import TitleWithContent from '@/components/elements/TitleWithContent/TitleWithContent'
-import React from 'react'
 
 const VistaSbrLatexPlus = () => {
     return (

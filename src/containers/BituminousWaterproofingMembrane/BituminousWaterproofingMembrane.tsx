@@ -24,24 +24,26 @@ const BituminousWaterproofingMembrane = () => {
             <TitleWithContent
                 title="Key feature of Bituminous Coating Waterproofing">
                 <ListWithDescription
-                    titleLeft="Waterproofing Properties:"
-
-                    contentLeft="Bituminous coatings create a durable and impermeable layer, preventing water from penetrating the underlying surfaces."
-
-                    titleRight="Adhesion:"
-
-                    contentRight="These coatings adhere well to a variety of substrates, including concrete, metal, and masonry, providing a secure bond."
+                    items={[
+                        {
+                            title: "Waterproofing Properties:",
+                            content: ["Bituminous coatings create a durable and impermeable layer, preventing water from penetrating the underlying surfaces."]
+                        },
+                        {
+                            title: "Adhesion:",
+                            content: ["These coatings adhere well to a variety of substrates, including concrete, metal, and masonry, providing a secure bond."]
+                        },
+                        {
+                            title: "Flexibility:",
+                            content: ["Bituminous coatings often exhibit flexibility, allowing them to accommodate minor movements in the substrate without cracking."]
+                        },
+                        {
+                            title: "Versatility:",
+                            content: ["Bituminous coatings can be used on various surfaces, such as roofs, foundations, basements, and walls, making them versatile for different construction needs."]
+                        }
+                    ]}
                 />
 
-                <ListWithDescription
-                    titleLeft="Flexibility"
-
-                    contentLeft="Bituminous coatings often exhibit flexibility, allowing them to accommodate minor movements in the substrate without cracking."
-
-                    titleRight="Versatility"
-
-                    contentRight="Bituminous coatings can be used on various surfaces, such as roofs, foundations, basements, and walls, making them versatile for different construction needs."
-                />
             </TitleWithContent>
 
             <TitleWithContent
@@ -64,22 +66,26 @@ const BituminousWaterproofingMembrane = () => {
             <TitleWithContent title="Applications of Bituminous Waterproofing">
 
                 <ListWithDescription
-                    titleLeft="Roof Waterproofing:"
-                    contentLeft="Bituminous membranes are commonly used for
-                    waterproofing flat or sloping roofs, protecting them from rainwater and preventing leaks."
-                    titleRight="Foundation Waterproofing:"
-                    contentRight="Bituminous waterproofing helps create a protective
-                    barrier around building foundations, safeguarding against water seepage and damage."
+                    items={[
+                        {
+                            title: "Roof Waterproofing:",
+                            content: ["Bituminous membranes are commonly used for waterproofing flat or sloping roofs, protecting them from rainwater and preventing leaks."]
+                        },
+                        {
+                            title: "Foundation Waterproofing:",
+                            content: ["Bituminous waterproofing helps create a protective barrier around building foundations, safeguarding against water seepage and damage."]
+                        },
+                        {
+                            title: "Basement Waterproofing:",
+                            content: ["Bituminous coatings or membranes are applied to basement walls and floors to prevent moisture infiltration and potential flooding."]
+                        },
+                        {
+                            title: "Tunnel Waterproofing:",
+                            content: ["Tunnels, whether for roads, railways, or underground utilities, can benefit from bituminous waterproofing to prevent water ingress and ensure structural integrity."]
+                        }
+                    ]}
                 />
-                <ListWithDescription
-                    titleLeft="Basement Waterproofing:"
-                    contentLeft="Bituminous coatings or membranes are applied to
-                    basement walls and floors to prevent moisture infiltration and potential flooding."
-                    titleRight="Tunnel Waterproofing:"
-                    contentRight="Tunnels, whether for roads, railways, or underground
-                    utilities, can benefit from bituminous waterproofing to prevent water ingress and ensure
-                    structural integrity."
-                />
+
             </TitleWithContent>
 
             <TitleWithContent
@@ -165,7 +171,7 @@ const BituminousWaterproofingMembrane = () => {
 
             {/* Remove start */}
 
-           
+
 
 
 
