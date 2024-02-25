@@ -1,4 +1,5 @@
 import CardWithImage from "@/components/elements/Card/CardThreeDImage";
+import TitleWithContent from "@/components/elements/TitleWithContent/TitleWithContent";
 import { useSearch } from "@/hooks/useSearch";
 
 interface ProductProps {
@@ -120,7 +121,7 @@ const Products: React.FC = () => {
 
   return (
     <>
-      {/* <TitleWithContent title="Waterproofing Chemical"> */}
+      <TitleWithContent title="Products"/>
       <div className="flex flex-wrap justify-center gap-12 lg:w-104">
         {products
           .filter((product: ProductProps) => {

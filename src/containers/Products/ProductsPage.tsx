@@ -1,9 +1,9 @@
-import TitleBar from "@/components/elements/TitleBar/TitleBar";
 import Products from "./Products";
+import TitleBarMin from "@/components/elements/TitleBar/TitleBarMin";
 const ProductsPage = () => {
   return (
     <>
-      <TitleBar title="Our Products"></TitleBar>
+      <TitleBarMin title="Our Products"></TitleBarMin>
       <Products/>
     </>
   );
