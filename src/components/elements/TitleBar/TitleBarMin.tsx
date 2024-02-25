@@ -6,7 +6,7 @@ const TitleBarMin : React.FC<TitleBarProps> = ({title,subtitle}) => {
     return (
 
         <>
-            <div id="hero-navbar" className="bg-purple-900 pt-20 ">
+            <div id="hero-navbar" className="bg-purple-900 pt-24 pb-8">
                 <div className="container mx-auto">
                     <div className="flex justify-center items-center h-full">
                         <div className="text-center">
