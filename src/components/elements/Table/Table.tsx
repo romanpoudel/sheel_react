@@ -24,7 +24,21 @@ const Table: React.FC<TableProps> = ({ items }) => {
           {rows.map((row, rowIndex) => (
             <tr key={rowIndex} className="hover:bg-purple-900 hover:text-white">
               {row.map((cell, cellIndex) => (
-                <td key={cellIndex}>{cell}</td>
+                <td key={cellIndex}>
+                  {/* Check if the cell content includes a newline character */}
+                  {cell.includes('\n') ? (
+                    cell.split('\n').map((item, index) => (
+                      // Use <br /> for newline
+                      <React.Fragment key={index}>
+                        {item}
+                        <br />
+                      </React.Fragment>
+                    ))
+                  ) : (
+                    // Otherwise, display the cell content as is
+                    cell
+                  )}
+                </td>
               ))}
             </tr>
           ))}

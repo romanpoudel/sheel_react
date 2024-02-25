@@ -1,5 +1,8 @@
-
-const TitleBar = ({ title }: { title: string }) => {
+interface TitleBarProps{
+    title:string;
+    subtitle?:string;
+}
+const TitleBar : React.FC<TitleBarProps> = ({title,subtitle}) => {
     return (
 
         <>
@@ -26,6 +29,7 @@ const TitleBar = ({ title }: { title: string }) => {
                 <div className="py-20">
 
                     <p className="title-text-size text-purple-900 animated-content">{title}</p>
+                    <p className="text-md pt-2">{subtitle}</p>
                     <div className="divider divider-primary"></div>
                 </div>
             </div>

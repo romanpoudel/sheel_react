@@ -11,6 +11,7 @@ import PolyurethaneWaterproofing from "@/containers/PolyurethaneWaterproofing/Po
 import RoofWaterproofing from "@/containers/RoofWaterproofing/RoofWaterproofing";
 import VistaAfaSuper from "@/containers/VistaAfaSuper/VistaAfaSuper";
 import VistaCrystalPlus from "@/containers/VistaCrystalPlus/VistaCrystalPlus";
+import VistaFlexSealPlus from "@/containers/VistaFlexSealPlus/VistaFlexSealPlus";
 
 export const publicRoutes = [
     {
@@ -75,6 +76,11 @@ export const publicRoutes = [
     {
         path:'vistacrystalplus',
         component: <VistaCrystalPlus />
+        
+    },
+    {
+        path:'vistaflexsealplus',
+        component: <VistaFlexSealPlus />
         
     },
 
