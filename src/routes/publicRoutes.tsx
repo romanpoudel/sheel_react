@@ -15,17 +15,16 @@ import VistaFlexSealPlus from "@/containers/VistaFlexSealPlus/VistaFlexSealPlus"
 import VistaIwa from "@/containers/VistaIwa/VistaIwa";
 import VistaNoTwo from "@/containers/VistaNoTwo/VistaNoTwo";
 import VistaNoThree from "@/containers/VistaNoThree/VistaNoThree";
+import VistaPowerSilicaFume from "@/containers/VistaPowerSilicaFume/VistaPowerSilicaFume";
 
 export const publicRoutes = [
     {
         path:'',
         component: <Home />
-
     },
     {
         path:'about',
         component: <About />
-        
     },
     {
         path:'contact',
@@ -33,73 +32,64 @@ export const publicRoutes = [
     },
     {
         path:'products',
-        component: <ProductsPage />
-        
+        component: <ProductsPage /> 
     },
     {
         path:'services',
-        component: <ServicesPage />
-        
+        component: <ServicesPage />  
     },
     {
         path:'bituminouswaterproofingmembrane',
-        component: <BituminousWaterproofingMembrane />
-        
+        component: <BituminousWaterproofingMembrane />   
     },
     {
         path:'cementitiouswaterproofing',
-        component: <CementitiousWaterproofingMembrane />
-        
+        component: <CementitiousWaterproofingMembrane />  
     },
     {
         path:'injectionwaterproofing',
-        component: <InjectionWaterproofing />
-        
+        component: <InjectionWaterproofing /> 
     },
     {
         path:'liquidwaterproofingmembrane',
-        component: <LiquidWaterproofingMembrane />
-        
+        component: <LiquidWaterproofingMembrane />  
     },
     {
         path:'polyurethanewaterproofing',
-        component: <PolyurethaneWaterproofing />
-        
+        component: <PolyurethaneWaterproofing />  
     },
     {
         path:'roofwaterproofing',
-        component: <RoofWaterproofing />
-        
+        component: <RoofWaterproofing />    
     },
     {
         path:'vistaafasuper',
-        component: <VistaAfaSuper />
-        
+        component: <VistaAfaSuper />   
     },
     {
         path:'vistacrystalplus',
         component: <VistaCrystalPlus />
-        
     },
     {
         path:'vistaflexsealplus',
         component: <VistaFlexSealPlus />
-        
+   
     },
     {
         path:'vistaiwa',
-        component: <VistaIwa />
-        
+        component: <VistaIwa />    
     },
     {
         path:'vistanotwo',
         component: <VistaNoTwo />
-        
     },
     {
         path:'vistanothree',
         component: <VistaNoThree />
-        
+    },
+    {
+        path:'vistapowersilicafume',
+        component: <VistaPowerSilicaFume />
     },
 
     
