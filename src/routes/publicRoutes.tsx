@@ -71,60 +71,59 @@ export const publicRoutes = [
         component: <RoofWaterproofing />
     },
     {
-        path: '/products/vista-afa-super',
+        path: 'products/vista-afa-super',
         component: <VistaAfaSuper />
     },
     {
-        path: '/products/vista-crystal-plus',
+        path: 'products/vista-crystal-plus',
         component: <VistaCrystalPlus />
     },
     {
-        path: '/products/vista-flex-seal-plus',
+        path: 'products/vista-flex-seal-plus',
         component: <VistaFlexSealPlus />
-
     },
     {
-        path: '/products/vista-iwa',
+        path: 'products/vista-iwa',
         component: <VistaIwa />
     },
     {
-        path: '/products/vista-no-2',
+        path: 'products/vista-no-2',
         component: <VistaNoTwo />
     },
     {
-        path: '/products/vista-no-3',
+        path: 'products/vista-no-3',
         component: <VistaNoThree />
     },
     {
-        path: '/products/vista-power-silica-fume',
+        path: 'products/vista-power-silica-fume',
         component: <VistaPowerSilicaFume />
     },
     {
-        path: '/products/vista-sbr-latex-plus',
+        path: 'products/vista-sbr-latex-plus',
         component: <VistaSbrLatexPlus />
     },
     {
-        path: '/products/vista-shot-x',
+        path: 'products/vista-shot-x',
         component: <VistaShotX />
     },
     {
-        path: '/products/vista-super-crete',
+        path: 'products/vista-super-crete',
         component: <VistaSuperCrete />
     },
     {
-        path: '/products/vista-superplast-hs',
+        path: 'products/vista-superplast-hs',
         component: <VistaSuperPlastHs />
     },
     {
-        path: '/products/vista-superplast-hs-1000',
+        path: 'products/vista-superplast-hs-1000',
         component: <VistaSuperplastHs1000 />
     },
     {
-        path: '/geomembranes',
+        path: 'products/geomembranes',
         component: <Geomembranes />
     },
     {
-        path: '/sheet-membranes',
+        path: 'products/sheet-membranes',
         component: <SheetMembranes />
     },
 

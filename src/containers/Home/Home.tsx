@@ -3,6 +3,7 @@ import ImageWithContentLeft from '@/components/elements/ImageWithContent/ImageWi
 import { Carousel } from '@/components/elements/Carousel/Carousel';
 import CardBasic from '@/components/elements/Card/CardBasic';
 import Services from '../Services/Services';
+import Products from '../Products/Products';
 const Home = () => {
   return (
     <>
@@ -32,8 +33,9 @@ const Home = () => {
       </section>
 
 
-      <Services/>
-      
+      <Services/>  
+
+      <Products/>    
 
       <section className='bg-purple-900 text-white py-20'>
         <ImageWithContentLeft

@@ -1,15 +1,77 @@
 import CardWithImage from '@/components/elements/Card/CardThreeDImage'
 import TitleWithContent from '@/components/elements/TitleWithContent/TitleWithContent'
+import { useState } from 'react';
 
-const Products = () => {
+interface ProductProps {
+  linkUrl: string;
+  imageUrl: string;
+  cardTitle: string;
+  cardContent: string;
+}
+
+
+
+const Products: React.FC = () => {
+
+  const [searchQuery, setSearchQuery] = useState('');
+
+  const handleSearchInputChange = (event: any) => {
+    setSearchQuery(event.target.value);
+  };
+
+  const filteredProducts = ({ product }: { product: ProductProps }) => {
+    return product.cardTitle.toLowerCase().includes(searchQuery.toLowerCase());
+  };
+
+  const products = [
+    {
+      linkUrl: '/products/vista-iwa',
+      imageUrl: "../src/assets/dummy-img.jpg",
+      cardTitle: "Vista IWA",
+      cardContent: "Vista - IWA Dr. Vista 108 IWA is a unique multipurpose advanced technology Integral Waterproofing compound.Dr.Vista 108 IWA + is made from specially formulated cement friendly surface active agents, corrosion inhibit additive and polymers.It is used as an additive for cement concrete, mortar & plasters while constructing the building.The presence of this integral compound resists and reverses thenormal tendency of hardened concrete to absorb water by capillary action and makes the concrete totally sealed against penetration of water."
+    },
+
+    {
+      linkUrl: '/products/vista-iwa',
+      imageUrl: "../src/assets/dummy-img.jpg",
+      cardTitle: "Vista abc",
+      cardContent: "Vista - IWA Dr. Vista 108 IWA is a unique multipurpose advanced technology Integral Waterproofing compound.Dr.Vista 108 IWA + is made from specially formulated cement friendly surface active agents, corrosion inhibit additive and polymers.It is used as an additive for cement concrete, mortar & plasters while constructing the building.The presence of this integral compound resists and reverses thenormal tendency of hardened concrete to absorb water by capillary action and makes the concrete totally sealed against penetration of water."
+    },
+
+  ]
+
+
+
+
+
+
+
+
+
+
+
   return (
     <>
       <TitleWithContent title="Waterproofing Chemical">
         <div className="flex flex-wrap justify-center gap-12 lg:w-104">
 
+          {products.filter((product:ProductProps)=>{
+            return filteredProducts({product})
+           
+          }).map(product=>{
+            return (
+              <CardWithImage key={product.linkUrl}
+              linkUrl={product.linkUrl}
+              imageUrl={product.imageUrl}
+              cardTitle={product.cardTitle}
+              cardContent={product.cardContent}
+              />
+            )
+          })}
 
-          <CardWithImage
-            linkUrl='vista-iwa'
+
+          {/* <CardWithImage
+            linkUrl='/products/vista-iwa'
             imageUrl="../src/assets/dummy-img.jpg"
             cardTitle="Vista IWA"
             cardContent="Vista - IWA Dr. Vista 108 IWA is a unique
@@ -23,7 +85,7 @@ const Products = () => {
 
 
           <CardWithImage
-            linkUrl='vista-no-2'
+            linkUrl='/products/vista-no-2'
             imageUrl="../src/assets/dummy-img.jpg"
             cardTitle="Vista No. 2"
             cardContent="VISTA NO - 2 is an extra fast setting waterproof /
@@ -31,7 +93,7 @@ const Products = () => {
           />
 
           <CardWithImage
-            linkUrl='vista-no-3'
+            linkUrl='/products/vista-no-3'
             imageUrl="../src/assets/dummy-img.jpg"
             cardTitle=" Vista No. 3"
             cardContent="A multipurpose quick setting for cement mortar &
@@ -40,7 +102,7 @@ const Products = () => {
           />
 
           <CardWithImage
-            linkUrl='vista-sbr-latex-plus'
+            linkUrl='/products/vista-sbr-latex-plus'
             imageUrl="../src/assets/dummy-img.jpg"
             cardTitle=" Vista SBR Latex Plus"
             cardContent="Dr. Vista SBR Latex Plus is a milky-white, styrene-
@@ -53,7 +115,7 @@ const Products = () => {
           />
 
           <CardWithImage
-            linkUrl='vista-super-crete'
+            linkUrl='/products/vista-super-crete'
             imageUrl="../src/assets/dummy-img.jpg"
             cardTitle=" Vista Super Crete"
             cardContent="Polyurethane coatings are flexible and provide
@@ -65,7 +127,7 @@ const Products = () => {
           />
 
           <CardWithImage
-            linkUrl='vista-flex-seal-plus'
+            linkUrl='/products/vista-flex-seal-plus'
             imageUrl="../src/assets/dummy-img.jpg"
             cardTitle=" Vista Flex Seal +"
             cardContent="Roof waterproofing systems are protective measures
@@ -83,14 +145,14 @@ const Products = () => {
         <div className="flex flex-wrap justify-center gap-12 lg:w-104">
 
           <CardWithImage
-            linkUrl='vista-power-silica-fume'
+            linkUrl='/products/vista-power-silica-fume'
             imageUrl="../src/assets/dummy-img.jpg"
             cardTitle=" Vista Power Silica Fume"
             cardContent="This method involves the use of cement-based coatings or additives to create a waterproof barrier. It is often used for concrete structures and can be applied to both the positive and negative sides of walls."
           />
 
           <CardWithImage
-            linkUrl='vista-seal-it'
+            linkUrl='/products/vista-flex-seal-it'
             imageUrl="../src/assets/dummy-img.jpg"
             cardTitle=" Vista Seal IT"
             cardContent="Bituminous coatings, such as asphalt or coal tar, are used for waterproofing flat roofs and foundations. These materials are applied in liquid form and then solidify to create a durable waterproof layer."
@@ -103,7 +165,7 @@ const Products = () => {
         <div className="flex flex-wrap justify-center gap-12 lg:w-104">
 
           <CardWithImage
-            linkUrl='vista-superplast-hs'
+            linkUrl='/products/vista-superplast-hs'
             imageUrl="../src/assets/dummy-img.jpg"
             cardTitle=" Vista Superplast HS"
             cardContent="This method involves the use of cement-based
@@ -116,7 +178,7 @@ const Products = () => {
           />
 
           <CardWithImage
-            linkUrl='vista-superplast-hs-1000'
+            linkUrl='/products/vista-superplast-hs-1000'
             imageUrl="../src/assets/dummy-img.jpg"
             cardTitle="Vista Superplast HS 1000"
             cardContent="Liquid-applied waterproofing membranes are flexible
@@ -130,7 +192,7 @@ const Products = () => {
           />
 
           <CardWithImage
-            linkUrl='vista-afa'
+            linkUrl='/products/vista-afa-super'
             imageUrl="../src/assets/dummy-img.jpg"
             cardTitle=" Vista AFA"
             cardContent="Bituminous coatings, such as asphalt or coal tar,
@@ -144,7 +206,7 @@ const Products = () => {
           33
 
           <CardWithImage
-            linkUrl='vista-shot-x'
+            linkUrl='/products/vista-shot-x'
             imageUrl="../src/assets/dummy-img.jpg"
             cardTitle="  Vista Shot X"
             cardContent="Bituminous coatings, such as asphalt or coal tar,
@@ -164,11 +226,11 @@ const Products = () => {
 
 
           <CardWithImage
-            linkUrl='/vista-crystal-plus'
+            linkUrl='/products/vista-crystal-plus'
             imageUrl="../src/assets/dummy-img.jpg"
             cardTitle=" Vista Crystal Plus"
             cardContent="This method involves the use of cement-based coatings or additives to create a waterproof barrier. It is often used for concrete structures and can be applied to both the positive and negative sides of walls."
-          />
+          /> */}
 
 
         </div>
