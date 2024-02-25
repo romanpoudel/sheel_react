@@ -1,10 +1,7 @@
-import CardWithImage from "@/components/elements/Card/CardThreeDImage";
-import TitleBar from "@/components/elements/TitleBar/TitleBar";
-import TitleWithContent from "@/components/elements/TitleWithContent/TitleWithContent";
 const ServicesPage = () => {
   return (
     <>
-      <TitleBar title="Our Services"></TitleBar>
+      {/* <TitleBar title="Our Services"></TitleBar>
 
       <TitleWithContent title="Waterproofing Chemical">
         <div className="flex flex-wrap justify-center gap-12 lg:w-104">
@@ -144,7 +141,7 @@ const ServicesPage = () => {
             cardContent="This method involves the use of cement-based coatings or additives to create a waterproof barrier. It is often used for concrete structures and can be applied to both the positive and negative sides of walls."
           />
         </div>
-      </TitleWithContent>
+      </TitleWithContent> */}
     </>
   );
 };

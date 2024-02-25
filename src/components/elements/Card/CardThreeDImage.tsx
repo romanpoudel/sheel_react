@@ -1,17 +1,19 @@
 import { Link } from "react-router-dom";
-import { CardContainer, CardBody, CardItem } from "../../ui/cardthreedimension";
+import { CardBody, CardContainer, CardItem } from "../../ui/cardthreedimension";
 
 interface CardWithImageProps {
-
   cardTitle: string;
   cardContent: string;
-  imageUrl: string,
-  linkUrl: string
-
+  imageUrl?: string;
+  linkUrl: string;
 }
 
-
-const CardWithImage: React.FC<CardWithImageProps> = ({ cardTitle, cardContent, imageUrl, linkUrl = "/" }) => {
+const CardWithImage: React.FC<CardWithImageProps> = ({
+  cardTitle,
+  cardContent,
+  imageUrl,
+  linkUrl = "/",
+}) => {
   return (
     <Link to={linkUrl}>
       <CardContainer className="inter-var">
