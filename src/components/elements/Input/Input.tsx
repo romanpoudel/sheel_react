@@ -6,5 +6,5 @@ interface InputBoxInterface {
 } 
 
 export const InputBox: React.FC<InputBoxInterface> = ({ type, placeholder, id }) => {
-  return <Input type={type} placeholder={placeholder} id={id}/>
+  return <Input type={type} placeholder={placeholder} id={id} className="text-black"/>
 }

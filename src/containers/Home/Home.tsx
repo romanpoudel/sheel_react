@@ -4,17 +4,12 @@ import ImageWithContentLeft from "@/components/elements/ImageWithContent/ImageWi
 import TitleWithContent from "@/components/elements/TitleWithContent/TitleWithContent";
 import Products from "../Products/Products";
 import Services from "../Services/Services";
+import About from "../About/About";
 const Home = () => {
   return (
     <>
       <Carousel />
-      <TitleWithContent title="About Us">
-        <ImageWithContentLeft
-          title="Quality and Intigrity"
-          imageUrl="../src/assets/dummy-img.jpg"
-          content="Established in 2018, Sheel Waterproofing has been at the forefront of the waterproofing industry for over a decade. Founded by Mr. Shankar Karki, our company began with a vision to provide effective and reliable waterproofing solutions to protect properties from water damage. With a team of skilled professionals and a commitment to innovation, we have grown into a trusted name in the industry. Our journey continues as we strive to ensure dry and secure properties for all our valued clients."
-        />
-      </TitleWithContent>
+      <About/>
 
       <section
         id="cards"
@@ -33,10 +28,12 @@ const Home = () => {
       </div>
 
       <section className="bg-purple-900 text-white py-20">
-        <ImageWithContentLeft
-          imageUrl="../src/assets/dummy-img.jpg"
-          title="Words From our CEO"
-          content="Dear Valued Customers, Welcome to Sheel Waterproofing, where excellence meets waterproofing expertise! As the CEO, I'm proud to lead a team dedicated to providing cutting-edge solutions for your waterproofing needs.
+
+        <div className="px-8 lg:px-32">
+          <ImageWithContentLeft
+            imageUrl="../src/assets/dummy-img.jpg"
+            title="Words From our CEO"
+            content="Dear Valued Customers, Welcome to Sheel Waterproofing, where excellence meets waterproofing expertise! As the CEO, I'm proud to lead a team dedicated to providing cutting-edge solutions for your waterproofing needs.
       
 
 
@@ -48,7 +45,10 @@ const Home = () => {
         Shankar Karki
       
         CEO, Sheel Waterproofing Nepal Pvt. Ltd."
-        />
+          />
+
+        </div>
+
       </section>
 
       <section>

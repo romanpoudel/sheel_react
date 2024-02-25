@@ -12,7 +12,7 @@ function NavbarOld() {
   };
 
   return (
-    <nav id="navbar" className="z-20 fixed w-[100%] text-white">
+    <nav id="navbar" className="z-20 fixed w-[100%] text-white pb-20">
       <div className="navbar bg-purple-900">
         <div className="navbar-start">
           {/* Dropdown */}
@@ -45,24 +45,13 @@ function NavbarOld() {
               }`}
             >
               {/* Nav links */}
-              <li
-                className="navbar-item cursor-pointer"
-                data-page="./pages/index_content.html"
-              >
+              <li>
                 <a>Home</a>
               </li>
-              <li
-                id="about-link-sm"
-                className="navbar-item cursor-pointer"
-                data-page="./pages/index_content.html"
-              >
+              <li>
                 <a>About</a>
               </li>
-              <li
-                id="services-link-sm"
-                className="navbar-item cursor-pointer"
-                data-page="./pages/index_content.html"
-              >
+              <li>
                 <a>Services</a>
               </li>
               {/* Products */}
@@ -79,16 +68,10 @@ function NavbarOld() {
                         Waterproofing Chemical
                       </summary>
                       <ul className="nested-list pt-2" /*x-show="open"*/>
-                        <li
-                          className="navbar-item cursor-pointer"
-                          data-page="./pages/vista_iwa.html"
-                        >
+                        <li>
                           <a>Vista - IWA</a>
                         </li>
-                        <li
-                          className="navbar-item cursor-pointer"
-                          data-page="./pages/vista_iwa.html"
-                        >
+                        <li>
                           <a>Vista - IWA</a>
                         </li>
                         {/* Other items */}
@@ -98,28 +81,19 @@ function NavbarOld() {
                   </ul>
                 </details>
               </li>
-              <li
-                id="contact-link-sm"
-                className="navbar-item cursor-pointer"
-                data-page="./pages/index_content.html"
-              >
+              <li>
                 <a>Contact Us</a>
               </li>
-              <input
-                type="text"
-                id="searchInputSm"
-                placeholder="Search"
-                className="input input-bordered input-primary w-full max-w-xs text-black block lg:hidden"
-              />
+              {/* <Input /> */}
             </ul>
           </div>
 
           {/* Logo and brand name */}
           <div className="flex">
             <figure>
-              <img src="./src/assets/logo.svg" alt="logo" className="w-14" />
+              <img src="./src/assets/logo.svg" alt="logo" className="w-14 hidden lg:block" />
             </figure>
-            <a className="btn btn-ghost text-xl">Sheel Waterproofing</a>
+            <a className="btn btn-ghost text-xl"><Link to="/">Sheel Waterproofing</Link></a>
           </div>
         </div>
 
@@ -133,7 +107,7 @@ function NavbarOld() {
               <Link to="/about">About Us</Link>
             </li>
             <li>
-              <Link to="/">services</Link>
+              <Link to="/">Services</Link>
             </li>
 
             {/* Products */}
@@ -166,12 +140,8 @@ function NavbarOld() {
               </details>
             </li>
             {/* Other nav links */}
-            <li
-              className="navbar-item cursor-pointer"
-              id="contact-link"
-              data-page="./pages/index_content.html"
-            >
-              <a>Contact Us</a>
+            <li>
+              <Link to="contact">Contact Us</Link>
             </li>
           </ul>
         </div>
@@ -181,7 +151,6 @@ function NavbarOld() {
             type="text"
             id="searchInput"
             placeholder="Search"
-            style={{ color: "#000" }}
             value={searchContext?.searchQuery ?? ""}
             onChange={(e) => {
               if (searchContext) {

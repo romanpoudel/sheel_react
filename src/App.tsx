@@ -4,6 +4,9 @@ import MainLayout from "./components/layouts/MainLayout/MainLayout";
 import SearchProvider from "./contexts/searchContext";
 import "./index.css";
 import { publicRoutes } from "./routes/publicRoutes";
+import "@fontsource/montserrat"; // Defaults to weight 400
+import "@fontsource/montserrat/400.css"; // Specify weight
+import "@fontsource/montserrat/400-italic.css"; // Specify weight and style
 
 function App() {
   return (
