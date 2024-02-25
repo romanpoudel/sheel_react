@@ -1,5 +1,6 @@
 import { Input } from '@/components/ui/input';
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 function NavbarOld() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -110,16 +111,21 @@ function NavbarOld() {
         {/* Large screen navbar */}
         <div className="navbar-center hidden lg:flex z-20">
           <ul className="menu menu-horizontal px-1">
-            {/* Nav links */}
-            <li className="navbar-item cursor-pointer" data-page="./pages/index_content.html">
-              <a>Home</a>
+            <li>
+              <Link to="/">Home</Link>
             </li>
-            {/* Other nav links */}
+            <li>
+              <Link to="/about">About Us</Link>
+            </li>
+            <li>
+              <Link to="/">services</Link>
+            </li>
+            
             {/* Products */}
             <li>
               <details>
                 <summary className="navbar-item cursor-pointer" data-page="./pages/products.html">
-                  Our Products
+                  <Link to="/products">Our Products</Link>
                 </summary>
                 <ul className="p-2 bg-purple-900" style={{ margin: 0 }}>
                   {/* Nested details */}
@@ -128,8 +134,8 @@ function NavbarOld() {
                       Crystallizing
                     </summary>
                     <ul className="p-2 nested-list" >
-                      <li className="navbar-item cursor-pointer" data-page="./pages/vista_crystal_plus.html">
-                        <a>Vista Crystal plus</a>
+                      <li>
+                        <Link to="/">hari</Link>
                       </li>
                       {/* Other items */}
                     </ul>
@@ -149,20 +155,12 @@ function NavbarOld() {
           </ul>
         </div>
 
-        {/* Navbar end section */}
         <div className="navbar-end flex gap-4">
-          {/* Search input */}
           <Input
             type="text"
             id="searchInput"
             placeholder="Search"
           />
-          {/* Drawer button */}
-          <div className="drawer-content ">
-            <label htmlFor="my-drawer" className="drawer-button cursor-pointer text-2xl pr-8">
-              <i className="ri-information-fill"></i>
-            </label>
-          </div>
         </div>
       </div>
     </nav>
