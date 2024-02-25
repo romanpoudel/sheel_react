@@ -18,89 +18,94 @@ import VistaNoThree from "@/containers/VistaNoThree/VistaNoThree";
 import VistaPowerSilicaFume from "@/containers/VistaPowerSilicaFume/VistaPowerSilicaFume";
 import VistaSbrLatexPlus from "@/containers/VistaSbrLatexPlus/VistaSbrLatexPlus";
 import VistaShotX from "@/containers/VistaShotX/VistaShotX";
+import VistaSuperCrete from "@/containers/VistaSuperCrete/VistaSuperCrete";
 
 export const publicRoutes = [
     {
-        path:'',
+        path: '',
         component: <Home />
     },
     {
-        path:'about',
+        path: 'about',
         component: <About />
     },
     {
-        path:'contact',
+        path: 'contact',
         component: <Contact />
     },
     {
-        path:'products',
-        component: <ProductsPage /> 
+        path: 'products',
+        component: <ProductsPage />
     },
     {
-        path:'services',
-        component: <ServicesPage />  
+        path: 'services',
+        component: <ServicesPage />
     },
     {
-        path:'bituminouswaterproofingmembrane',
-        component: <BituminousWaterproofingMembrane />   
+        path: 'bituminouswaterproofingmembrane',
+        component: <BituminousWaterproofingMembrane />
     },
     {
-        path:'cementitiouswaterproofing',
-        component: <CementitiousWaterproofingMembrane />  
+        path: 'cementitiouswaterproofing',
+        component: <CementitiousWaterproofingMembrane />
     },
     {
-        path:'injectionwaterproofing',
-        component: <InjectionWaterproofing /> 
+        path: 'injectionwaterproofing',
+        component: <InjectionWaterproofing />
     },
     {
-        path:'liquidwaterproofingmembrane',
-        component: <LiquidWaterproofingMembrane />  
+        path: 'liquidwaterproofingmembrane',
+        component: <LiquidWaterproofingMembrane />
     },
     {
-        path:'polyurethanewaterproofing',
-        component: <PolyurethaneWaterproofing />  
+        path: 'polyurethanewaterproofing',
+        component: <PolyurethaneWaterproofing />
     },
     {
-        path:'roofwaterproofing',
-        component: <RoofWaterproofing />    
+        path: 'roofwaterproofing',
+        component: <RoofWaterproofing />
     },
     {
-        path:'vistaafasuper',
-        component: <VistaAfaSuper />   
+        path: 'vistaafasuper',
+        component: <VistaAfaSuper />
     },
     {
-        path:'vistacrystalplus',
+        path: 'vistacrystalplus',
         component: <VistaCrystalPlus />
     },
     {
-        path:'vistaflexsealplus',
+        path: 'vistaflexsealplus',
         component: <VistaFlexSealPlus />
-   
+
     },
     {
-        path:'vistaiwa',
-        component: <VistaIwa />    
+        path: 'vistaiwa',
+        component: <VistaIwa />
     },
     {
-        path:'vistanotwo',
+        path: 'vistanotwo',
         component: <VistaNoTwo />
     },
     {
-        path:'vistanothree',
+        path: 'vistanothree',
         component: <VistaNoThree />
     },
     {
-        path:'vistapowersilicafume',
+        path: 'vistapowersilicafume',
         component: <VistaPowerSilicaFume />
     },
     {
-        path:'vistasbrlatexplus',
+        path: 'vistasbrlatexplus',
         component: <VistaSbrLatexPlus />
     },
     {
-        path:'vistashotx',
+        path: 'vistashotx',
         component: <VistaShotX />
     },
+    {
+        path: 'vistasupercrete',
+        component: <VistaSuperCrete />
+    },
 
-    
+
 ]
