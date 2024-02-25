@@ -1,11 +1,14 @@
 import '../../../index.css'
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
+
 
 
 const Footer = () => {
     return (
         <>
-            
+
             <footer className="footer p-10 text-white bg-purple-900  pt-10 px-8 lg:px-32">
                 <aside>
                     <figure className="w-20"><img src="../../../../src/assets/logo.svg" alt="logo" /></figure>
@@ -14,31 +17,29 @@ const Footer = () => {
                 <nav>
                     <header className="footer-title">Connect With Us</header>
                     <div className="flex gap-4">
-                        <a href="" target="_blank"><i className="ri-linkedin-box-fill"></i></a>
                         <a className="link link-hover">LinkedIn</a>
                     </div>
                     <div className="flex gap-4">
-                        <a href="" target="_blank"><i className="ri-facebook-circle-line"></i></a>
+
                         <a className="link link-hover">Facebook</a>
                     </div>
                     <div className="flex gap-4">
-                        <a href="" target="_blank"><i className="ri-instagram-line"></i></a>
                         <a className="link link-hover">Instagram</a>
                     </div>
                     <div className="flex gap-4">
-                        <a href="" target="_blank"><i className="ri-twitter-x-fill"></i></a>
                         <a className="link link-hover">X</a>
                     </div>
 
                 </nav>
+
                 <nav>
                     <header className="footer-title">Company</header>
                     <div className="flex gap-4">
-                        <i className="ri-phone-line"></i>
+                        <FontAwesomeIcon icon={faPhone} />
                         <a href="tel:+9779845683469" className="tracking-wide">+ 977 - 9845683469</a>
                     </div>
                     <div className="flex gap-4">
-                        <i className="ri-mail-line"></i>
+                        <FontAwesomeIcon icon={faEnvelope} />
                         <a href="mailto:yukienterprises@gmail.com" className="tracking-wide">yukienterprises@gmail.com</a>
                     </div>
                     <a className="link link-hover navbar-item cursor-pointer">About us</a>

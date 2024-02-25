@@ -2,6 +2,8 @@ import { Route, Routes } from 'react-router-dom';
 import './index.css';
 import { publicRoutes } from './routes/publicRoutes';
 import MainLayout from './components/layouts/MainLayout/MainLayout';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
 
 
 function App() {

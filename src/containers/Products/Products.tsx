@@ -4,9 +4,12 @@ import TitleWithContent from '@/components/elements/TitleWithContent/TitleWithCo
 const Products = () => {
   return (
     <>
-    <TitleWithContent title="Waterproofing Chemical">
+      <TitleWithContent title="Waterproofing Chemical">
         <div className="flex flex-wrap justify-center gap-12 lg:w-104">
+
+
           <CardWithImage
+            linkUrl='vista-iwa'
             imageUrl="../src/assets/dummy-img.jpg"
             cardTitle="Vista IWA"
             cardContent="Vista - IWA Dr. Vista 108 IWA is a unique
@@ -18,7 +21,9 @@ const Products = () => {
               concrete totally sealed against penetration of water."
           />
 
+
           <CardWithImage
+            linkUrl='vista-no-2'
             imageUrl="../src/assets/dummy-img.jpg"
             cardTitle="Vista No. 2"
             cardContent="VISTA NO - 2 is an extra fast setting waterproof /
@@ -26,6 +31,7 @@ const Products = () => {
           />
 
           <CardWithImage
+            linkUrl='vista-no-3'
             imageUrl="../src/assets/dummy-img.jpg"
             cardTitle=" Vista No. 3"
             cardContent="A multipurpose quick setting for cement mortar &
@@ -34,6 +40,7 @@ const Products = () => {
           />
 
           <CardWithImage
+            linkUrl='vista-sbr-latex-plus'
             imageUrl="../src/assets/dummy-img.jpg"
             cardTitle=" Vista SBR Latex Plus"
             cardContent="Dr. Vista SBR Latex Plus is a milky-white, styrene-
@@ -46,6 +53,7 @@ const Products = () => {
           />
 
           <CardWithImage
+            linkUrl='vista-super-crete'
             imageUrl="../src/assets/dummy-img.jpg"
             cardTitle=" Vista Super Crete"
             cardContent="Polyurethane coatings are flexible and provide
@@ -57,6 +65,7 @@ const Products = () => {
           />
 
           <CardWithImage
+            linkUrl='vista-flex-seal-plus'
             imageUrl="../src/assets/dummy-img.jpg"
             cardTitle=" Vista Flex Seal +"
             cardContent="Roof waterproofing systems are protective measures
@@ -67,26 +76,34 @@ const Products = () => {
                 membranes,
                 coatings, or sealants to create a barrier against rain, snow, and moisture."
           />
+
         </div>
       </TitleWithContent>
       <TitleWithContent title="Concreting Aids">
         <div className="flex flex-wrap justify-center gap-12 lg:w-104">
+
           <CardWithImage
+            linkUrl='vista-power-silica-fume'
             imageUrl="../src/assets/dummy-img.jpg"
             cardTitle=" Vista Power Silica Fume"
             cardContent="This method involves the use of cement-based coatings or additives to create a waterproof barrier. It is often used for concrete structures and can be applied to both the positive and negative sides of walls."
           />
+
           <CardWithImage
+            linkUrl='vista-seal-it'
             imageUrl="../src/assets/dummy-img.jpg"
             cardTitle=" Vista Seal IT"
             cardContent="Bituminous coatings, such as asphalt or coal tar, are used for waterproofing flat roofs and foundations. These materials are applied in liquid form and then solidify to create a durable waterproof layer."
           />
+
         </div>
       </TitleWithContent>
 
       <TitleWithContent title="Concrete Admixture">
         <div className="flex flex-wrap justify-center gap-12 lg:w-104">
+
           <CardWithImage
+            linkUrl='vista-superplast-hs'
             imageUrl="../src/assets/dummy-img.jpg"
             cardTitle=" Vista Superplast HS"
             cardContent="This method involves the use of cement-based
@@ -97,7 +114,9 @@ const Products = () => {
                 positive and
                 negative sides of walls."
           />
+
           <CardWithImage
+            linkUrl='vista-superplast-hs-1000'
             imageUrl="../src/assets/dummy-img.jpg"
             cardTitle="Vista Superplast HS 1000"
             cardContent="Liquid-applied waterproofing membranes are flexible
@@ -109,7 +128,9 @@ const Products = () => {
                 of
                 application and ability to conform to irregular shapes."
           />
+
           <CardWithImage
+            linkUrl='vista-afa'
             imageUrl="../src/assets/dummy-img.jpg"
             cardTitle=" Vista AFA"
             cardContent="Bituminous coatings, such as asphalt or coal tar,
@@ -120,7 +141,10 @@ const Products = () => {
                 durable
                 waterproof layer."
           />
+          33
+
           <CardWithImage
+            linkUrl='vista-shot-x'
             imageUrl="../src/assets/dummy-img.jpg"
             cardTitle="  Vista Shot X"
             cardContent="Bituminous coatings, such as asphalt or coal tar,
@@ -131,19 +155,25 @@ const Products = () => {
                 durable
                 waterproof layer."
           />
+
         </div>
       </TitleWithContent>
 
       <TitleWithContent title="Crystallizing">
         <div className="flex flex-wrap justify-center gap-12 lg:w-104">
+
+
           <CardWithImage
+            linkUrl='/vista-crystal-plus'
             imageUrl="../src/assets/dummy-img.jpg"
             cardTitle=" Vista Crystal Plus"
             cardContent="This method involves the use of cement-based coatings or additives to create a waterproof barrier. It is often used for concrete structures and can be applied to both the positive and negative sides of walls."
           />
+
+
         </div>
       </TitleWithContent>
-      </>
+    </>
   )
 }
 

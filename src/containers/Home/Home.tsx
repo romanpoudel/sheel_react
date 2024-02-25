@@ -34,8 +34,6 @@ const Home = () => {
 
 
       <Services/>
-      <Products/>
-
       
 
       <section className='bg-purple-900 text-white py-20'>

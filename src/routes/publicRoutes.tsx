@@ -19,6 +19,7 @@ import VistaPowerSilicaFume from "@/containers/VistaPowerSilicaFume/VistaPowerSi
 import VistaSbrLatexPlus from "@/containers/VistaSbrLatexPlus/VistaSbrLatexPlus";
 import VistaShotX from "@/containers/VistaShotX/VistaShotX";
 import VistaSuperCrete from "@/containers/VistaSuperCrete/VistaSuperCrete";
+import VistaSuperplastHs1000 from "@/containers/VistaSuperplastHS1000/VistaSuperplastHs1000";
 
 export const publicRoutes = [
     {
@@ -42,69 +43,73 @@ export const publicRoutes = [
         component: <ServicesPage />
     },
     {
-        path: 'bituminouswaterproofingmembrane',
+        path: 'bituminous-waterproofing-membrane',
         component: <BituminousWaterproofingMembrane />
     },
     {
-        path: 'cementitiouswaterproofing',
+        path: 'cementitious-waterproofing',
         component: <CementitiousWaterproofingMembrane />
     },
     {
-        path: 'injectionwaterproofing',
+        path: 'injection-waterproofing',
         component: <InjectionWaterproofing />
     },
     {
-        path: 'liquidwaterproofingmembrane',
+        path: 'liquid-waterproofing-membrane',
         component: <LiquidWaterproofingMembrane />
     },
     {
-        path: 'polyurethanewaterproofing',
+        path: 'polyurethane-waterproofing',
         component: <PolyurethaneWaterproofing />
     },
     {
-        path: 'roofwaterproofing',
+        path: 'roof-waterproofing',
         component: <RoofWaterproofing />
     },
     {
-        path: 'vistaafasuper',
+        path: 'vista-afa-super',
         component: <VistaAfaSuper />
     },
     {
-        path: 'vistacrystalplus',
+        path: 'vista-crystal-plus',
         component: <VistaCrystalPlus />
     },
     {
-        path: 'vistaflexsealplus',
+        path: 'vista-flex-seal-plus',
         component: <VistaFlexSealPlus />
 
     },
     {
-        path: 'vistaiwa',
+        path: 'vista-iwa',
         component: <VistaIwa />
     },
     {
-        path: 'vistanotwo',
+        path: 'vista-no-2',
         component: <VistaNoTwo />
     },
     {
-        path: 'vistanothree',
+        path: 'vista-no-3',
         component: <VistaNoThree />
     },
     {
-        path: 'vistapowersilicafume',
+        path: 'vista-power-silica-fume',
         component: <VistaPowerSilicaFume />
     },
     {
-        path: 'vistasbrlatexplus',
+        path: 'vista-sbr-latex-plus',
         component: <VistaSbrLatexPlus />
     },
     {
-        path: 'vistashotx',
+        path: 'vista-shot-x',
         component: <VistaShotX />
     },
     {
-        path: 'vistasupercrete',
+        path: 'vista-super-crete',
         component: <VistaSuperCrete />
+    },
+    {
+        path: 'vista-superplast-hs-1000',
+        component: <VistaSuperplastHs1000 />
     },
 
 
