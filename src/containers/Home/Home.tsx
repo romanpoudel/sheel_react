@@ -5,11 +5,12 @@ import TitleWithContent from "@/components/elements/TitleWithContent/TitleWithCo
 import Products from "../Products/Products";
 import Services from "../Services/Services";
 import About from "../About/About";
+import WordsFromCeo from "./WordsFromCeo";
 const Home = () => {
   return (
     <>
       <Carousel />
-      <About/>
+      <About />
 
       <section
         id="cards"
@@ -29,25 +30,7 @@ const Home = () => {
 
       <section className="bg-purple-900 text-white py-20">
 
-        <div className="px-8 lg:px-32">
-          <ImageWithContentLeft
-            imageUrl="../src/assets/dummy-img.jpg"
-            title="Words From our CEO"
-            content="Dear Valued Customers, Welcome to Sheel Waterproofing, where excellence meets waterproofing expertise! As the CEO, I'm proud to lead a team dedicated to providing cutting-edge solutions for your waterproofing needs.
-      
-
-
-        Our commitment to quality, innovation, and customer satisfaction is unmatched. Explore our website to discover how Sheel Waterproofing can protect your investments and ensure a watertight future for your projects.
-      
-      
-        Best regards,
-      
-        Shankar Karki
-      
-        CEO, Sheel Waterproofing Nepal Pvt. Ltd."
-          />
-
-        </div>
+        <WordsFromCeo/>
 
       </section>
 

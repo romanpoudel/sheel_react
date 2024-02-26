@@ -40,9 +40,8 @@ function NavbarOld() {
             </div>
             <ul
               // tabIndex="0"
-              className={`menu menu-sm dropdown-content p-2 z-[2] shadow bg-purple-900 rounded-box w-60 ${
-                isDropdownOpen ? "block" : "hidden"
-              }`}
+              className={`menu menu-sm dropdown-content p-2 z-[2] shadow bg-purple-900 rounded-box w-60 ${isDropdownOpen ? "block" : "hidden"
+                }`}
             >
               {/* Nav links */}
               <li>
@@ -54,12 +53,11 @@ function NavbarOld() {
               <li>
                 <Link to="services">Services</Link>
               </li>
-              {/* Products */}
+              {/* 
               <li>
                 <details>
                   <summary><Link to="/products">Our Products</Link></summary>
                   <ul className="p-2">
-                    {/* Nested details */}
                     <details x-data="{ open: false }" className="p-2">
                       <summary onClick={toggleDropdown} className="cursor-pointer" >
                         Waterproofing Chemical
@@ -71,15 +69,14 @@ function NavbarOld() {
                         <li>
                           <a>Vista - IWA</a>
                         </li>
-                        {/* Other items */}
                       </ul>
                     </details>
-                    {/* Other product categories */}
                   </ul>
                 </details>
               </li>
+                       */}
               <li>
-              <Link to="/contact">Contact Us</Link>
+                <Link to="/contact">Contact Us</Link>
               </li>
               {/* <Input /> */}
             </ul>
@@ -88,7 +85,7 @@ function NavbarOld() {
           {/* Logo and brand name */}
           <div className="flex">
             <figure>
-              <img src="./src/assets/logo.svg" alt="logo" className="w-14 hidden lg:block" />
+              <img src="../../src/assets/logo.svg" alt="logo" className="w-14 hidden lg:block" />
             </figure>
             <a className="btn btn-ghost text-xl"><Link to="/">Sheel Waterproofing</Link></a>
           </div>
@@ -106,15 +103,17 @@ function NavbarOld() {
             <li>
               <Link to="/services">Services</Link>
             </li>
+            <li>
+              <Link to="/products">Our Products</Link>
+            </li>
 
-            {/* Products */}
+            {/* Products 
             <li>
               <details>
                 <summary>
                   <Link to="/products">Our Products</Link>
                 </summary>
                 <ul className="p-2 bg-purple-900" style={{ margin: 0 }}>
-                  {/* Nested details */}
                   <details x-data="{ open: false }" className="p-2">
                     <summary onClick={toggleDropdown} className="cursor-pointer">
                       Crystallizing
@@ -123,19 +122,17 @@ function NavbarOld() {
                       <li>
                         <Link to="/">hari</Link>
                       </li>
-                      {/* Other items */}
                     </ul>
                   </details>
-                  {/* Other product categories */}
-                </ul>
-              </details>
-            </li>
-            {/* Other nav links */}
+          </ul>
+        </details>
+      </li>
+                 */}
             <li>
               <Link to="contact">Contact Us</Link>
             </li>
           </ul>
-        </div>
+        </div >
 
         <div className="navbar-end flex gap-4">
           <Input
@@ -150,8 +147,8 @@ function NavbarOld() {
             }}
           />
         </div>
-      </div>
-    </nav>
+      </div >
+    </nav >
   );
 }
 

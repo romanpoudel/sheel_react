@@ -1,8 +1,14 @@
-const ImageWithContentLeft = ({ imageUrl, title, content }: { imageUrl: string, title: string, content: string }) => {
+interface IimageWithContentLeft{
+    imageUrl:string;
+    title:string;
+    content:string;
+}
+
+const ImageWithContentLeft:React.FC<IimageWithContentLeft> = ({ imageUrl, title, content }) => {
     return (
 
         <>
-            <div className="grid grid-cols-11  px-8 lg:px-32">
+            <div className="grid grid-cols-11 items-start px-8 lg:px-32">
                 <div className="col-span-11 lg:col-span-5">
                     <figure className="">
                         <img className="rounded-lg" src={imageUrl} alt="" />
