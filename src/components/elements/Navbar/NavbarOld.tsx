@@ -46,28 +46,25 @@ function NavbarOld() {
             >
               {/* Nav links */}
               <li>
-                <a>Home</a>
+                <Link to="/">Home</Link>
               </li>
               <li>
-                <a>About</a>
+                <Link to="/about">About Us</Link>
               </li>
               <li>
-                <a>Services</a>
+                <Link to="services">Services</Link>
               </li>
               {/* Products */}
               <li>
                 <details>
-                  <summary>Our Products</summary>
+                  <summary><Link to="/products">Our Products</Link></summary>
                   <ul className="p-2">
                     {/* Nested details */}
                     <details x-data="{ open: false }" className="p-2">
-                      <summary
-                        onClick={toggleDropdown}
-                        className="cursor-pointer"
-                      >
+                      <summary onClick={toggleDropdown} className="cursor-pointer" >
                         Waterproofing Chemical
                       </summary>
-                      <ul className="nested-list pt-2" /*x-show="open"*/>
+                      <ul className="nested-list pt-2" x-show="open">
                         <li>
                           <a>Vista - IWA</a>
                         </li>
@@ -82,7 +79,7 @@ function NavbarOld() {
                 </details>
               </li>
               <li>
-                <a>Contact Us</a>
+              <Link to="/contact">Contact Us</Link>
               </li>
               {/* <Input /> */}
             </ul>
@@ -113,19 +110,13 @@ function NavbarOld() {
             {/* Products */}
             <li>
               <details>
-                <summary
-                  className="navbar-item cursor-pointer"
-                  data-page="./pages/products.html"
-                >
+                <summary>
                   <Link to="/products">Our Products</Link>
                 </summary>
                 <ul className="p-2 bg-purple-900" style={{ margin: 0 }}>
                   {/* Nested details */}
                   <details x-data="{ open: false }" className="p-2">
-                    <summary
-                      onClick={toggleDropdown}
-                      className="cursor-pointer"
-                    >
+                    <summary onClick={toggleDropdown} className="cursor-pointer">
                       Crystallizing
                     </summary>
                     <ul className="p-2 nested-list">

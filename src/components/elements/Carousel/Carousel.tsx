@@ -28,24 +28,17 @@ export function Carousel() {
         className="z-50 flex flex-col justify-center items-center"
       >
         <motion.p className="font-bold text-xl md:text-6xl text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 py-4">
-          We Provide Best Service
+          We Provide <span className="inline-block bg-gradient-to-tr from-indigo-500 via-purple-500 to-green-500 font-bold  text-transparent bg-clip-text drop-shadow-lg">Best Service</span> 
         </motion.p>
         <div
-          className={`text-sm text-justify px-20 py-10 line-clamp-${expanded ? 'none' : '2'} text-white overflow-y-auto max-h-[30rem]`}
+          className={`text-sm text-justify px-8 py-10 line-clamp-${expanded ? 'none' : '4'} text-white overflow-y-auto max-h-[30rem]`}
           style={{ maxHeight: expanded ? '30rem' : 'auto' }}
         >
-          <div className={`text-lg text-justify px-20  line-clamp-${expanded ? 'none' : '2'} text-white`}>
+          <div className={`text-lg text-justify px-8  line-clamp-${expanded ? 'none' : '4'} text-white`}>
             <p >
-              At Sheel Waterproofing, we are dedicated to providing exceptional waterproofing services for homes and businesses alike. With our expertise and commitment to quality, we ensure that your property remains protected from water damage and its detrimental effects. Water intrusion can wreak havoc on your property, leading to costly repairs, mold growth, and structural instability. That's why our experienced team of professionals is here to offer comprehensive waterproofing solutions tailored to your specific needs. With years of industry knowledge and state-of-the-art techniques, we specialize in basement waterproofing, foundation repair, and exterior waterproofing. No matter the size or complexity of the project, we have the expertise to deliver outstanding results that stand the test of time.
+              At <span className="inline-block bg-gradient-to-tr from-indigo-500 via-purple-500 to-green-500 font-bold  text-transparent bg-clip-text drop-shadow-lg">Sheel Waterproofing</span>, our dedication extends beyond merely providing exceptional waterproofing services; it encompasses a commitment to unparalleled   expertise and quality. Recognizing the imminent threat posed by water damage to properties, we prioritize tailored solutions to mitigate its effects. With a specialized team proficient in basement waterproofing, foundation repair, and exterior waterproofing, we assure enduring solutions regardless of project scale or complexity. Our ethos <span className="inline-block bg-gradient-to-tr from-indigo-500 via-purple-500 to-green-500 font-bold  text-transparent bg-clip-text drop-shadow-lg">revolves around a client-centric approach</span>, where understanding your unique requirements forms the cornerstone of our service. Embracing cutting-edge materials and industry innovations, we instill confidence in the longevity and efficacy of our solutions, ensuring your investment is safeguarded against water damage. Opting for Sheel Waterproofing signifies choosing a partner committed to surpassing expectations, <span className="inline-block bg-gradient-to-tr from-indigo-500 via-purple-500 to-green-500 font-bold  text-transparent bg-clip-text drop-shadow-lg">delivering exceptional outcomes</span>, and fortifying your property against the perils of water damage.
 
-              <br /><br />
 
-              At Sheel Waterproofing, we are dedicated to providing exceptional waterproofing services for homes and businesses alike. With our expertise and commitment to quality, we ensure that your property remains protected from water damage and its detrimental effects. Water intrusion can wreak havoc on your property, leading to costly repairs, mold growth, and structural instability. That's why our experienced team of professionals is here to offer comprehensive waterproofing solutions tailored to your specific needs. With years of industry knowledge and state-of-the-art techniques, we specialize in basement waterproofing, foundation repair, and exterior waterproofing. No matter the size or complexity of the project, we have the expertise to deliver outstanding results that stand the test of time.
-              <br /><br />
-
-              At Sheel Waterproofing, we pride ourselves on our customer-centric approach. We understand that each property is unique, and we take the time to assess your specific requirements before recommending the most effective waterproofing solution. Our dedicated team is always ready to answer your questions, address your concerns, and guide you through every step of the process. We prioritize the use of high-quality materials and the latest industry advancements to ensure optimal performance and durability. Our goal is to provide you with peace of mind, knowing that your property is shielded from water damage, even in the most challenging conditions.
-
-              When you choose Sheel Waterproofing, you are choosing a partner that is committed to your satisfaction. We strive to exceed your expectations, delivering exceptional results within budget and on schedule. Explore our range of services, learn more about our successful projects, and contact us today for a complimentary consultation. Let Sheel Waterproofing be your reliable choice for all your waterproofing needs. Protect your investment with confidence - choose Sheel Waterproofing as your trusted waterproofing solution provider.
             </p>
           </div>
         </div>
