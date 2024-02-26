@@ -117,7 +117,7 @@ const Products: React.FC = () => {
   return (
     <>
       <TitleWithContent title="Products"/>
-      <div className="flex flex-wrap items-center justify-center gap-12 px-8 lg:px-32 lg:w-104">
+      <div className="flex flex-wrap justify-center gap-12">
         {products
           .filter((product: ProductProps) => {
             return filteredProducts({ product });
