@@ -17,7 +17,7 @@ const VistaNoThree = () => {
             />
 
             <ImageWithContentLeft
-                imageUrl="../../../src/assets/dummy-img.jpg"
+                imageUrl="/images/dummy-img.jpg"
                 title="Description"
                 content="A multipurpose quick setting for cement mortar & concrete additive in liquid form when added to concrete, results in quick setting or rapid hardening of the same."
             />

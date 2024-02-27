@@ -16,7 +16,7 @@ const VistaNoTwo = () => {
             linkTo="/products"
             />
             <ImageWithContentLeft
-                imageUrl="../../../src/assets/dummy-img.jpg"
+                imageUrl="/images/dummy-img.jpg"
                 title="Description"
                 content="VISTA NO - 2 is an extra fast setting waterproof / plugging compound liquid."
             />

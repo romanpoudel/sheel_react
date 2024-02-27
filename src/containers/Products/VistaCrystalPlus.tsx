@@ -14,7 +14,7 @@ const VistaCrystalPlus = () => {
             linkTo="/products"/>
             <ImageWithContentLeft
                 title='Description'
-                imageUrl="../../../src/assets/dummy-img.jpg"
+                imageUrl="/images/dummy-img.jpg"
                 content='Vista Crystal Plus is a Crystallline waterproofing admixture that protects and waterproofs concrete structures by crystallisation. The active chemicals react with moisturea dn by prodict of cement hydrate in the concrete resulting in crystalline formation within the pores and capillary atracts fo concrete thus waterprooging the structure against penetration of water and other liquids from any direction. Crystal Plus gives strong and lasting waterproofing protection from harsh environmental conditions, Crystal Plus, crystalline admixture offers a waterproofing solution by turning concrete into a water barrier. When combined with waterm the chemicals react to form millions fo needle-like crystals with the concrete. These crystals grow and fill the capillary pores and micro-cracks, blocking the passage of water.'
             />
 

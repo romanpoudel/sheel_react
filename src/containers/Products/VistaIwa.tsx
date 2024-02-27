@@ -14,9 +14,9 @@ const VistaIwa = () => {
             linkTitle="Products"
             linkTo="/products"
             />
-            
+
             <ImageWithContentLeft
-                imageUrl="../../../src/assets/dummy-img.jpg"
+                imageUrl="/images/dummy-img.jpg"
                 title="Description"
                 content="Vista - IWA Dr. Vista 108 IWA is a unique multipurpose advanced technology Integral Waterproofing compound. Dr. Vista 108 IWA+ is made from specially formulated cement friendly surface active agents, corrosion inhibit additive and polymers.It is used as an additive for cement concrete, mortar & plasters while constructing the building. The presence of this integral compound resists and reverses the normal tendency of hardened concrete to absorb water by capillary action and makes the concrete totally sealed against penetration of water."
             />

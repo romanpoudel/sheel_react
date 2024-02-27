@@ -14,7 +14,7 @@ const RoofWaterproofing = () => {
             linkTo="/services" />
             <ImageWithContentLeft
                 title="Description"
-                imageUrl="./src/assets/dummy-img.jpg"
+                imageUrl="/images/dummy-img.jpg"
                 content="Roof waterproofing is the process of protecting a building's roof from water damage by applying materials that prevent water from penetrating the roof surface. Various waterproofing materials, such as asphalt coatings, liquid-applied membranes, and pre-formed sheet membranes, can be applied to existing or new structures, creating a barrier that prevents water from seeping into the building. Additionally, it will support the reduction of heat that is absorbed by the roof. When choosing a roof waterproofing option, it is important to consider different factors such as the climate, type of roof, expected life span, and the intended use of the building."
             />
 

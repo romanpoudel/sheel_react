@@ -14,7 +14,7 @@ const VistaAfaSuper = () => {
             linkTo="/products"/>
             < ImageWithContentLeft
                 title="Description"
-                imageUrl="../../../src/assets/dummy-img.jpg"
+                imageUrl="/images/dummy-img.jpg"
                 content="Dr Vista AFA Super is an alkali free accelerator especially used for wet shotcrete applications. It starts up a sudden drop of slump and a thixotropic effect at the time of spraying. The reaction with cement particles is immediate. Dr Vista AFA Super can be used in combination with Dr Vista superplasticizers."
             />
             <TitleWithContent title="Advantages">

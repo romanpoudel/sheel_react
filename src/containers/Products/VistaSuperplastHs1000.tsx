@@ -16,7 +16,7 @@ const VistaSuperplastHs1000 = () => {
             />
             <ImageWithContentLeft
                 title="Description"
-                imageUrl="../src/assets/dummy-img.jpg"
+                imageUrl="/images/dummy-img.jpg"
                 content="VISTA SUPERPLAST HS is a unique multipurpose advance technology hig performance Super-plasticizing Accelerating admixtre based on modified poly carboxylate ether confirming to ASTM c494."
             />
 

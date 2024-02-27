@@ -14,8 +14,7 @@ const Home = () => {
 
       <section
         id="cards"
-        className=" pt-10 flex justify-center gap-10 flex-wrap text-white"
-      >
+        className=" pt-10 flex justify-center gap-10 flex-wrap text-white">
         <CardBasic cardTitle="10 +" cardDescription="Years of Experience" />
         <CardBasic cardTitle="500 +" cardDescription="Project Completed" />
         <CardBasic cardTitle="500 +" cardDescription="Satisfied Clients" />

@@ -15,7 +15,7 @@ const BituminousWaterproofingMembrane = () => {
                 linkTo="/services"
             />
             <ImageWithContentLeft
-                imageUrl='../src/assets/dummy-img.jpg'
+                imageUrl='/images/dummy-img.jpg'
                 title="Description"
                 content=" Bituminous coating is a popular waterproofing method that
                 involves the application of a bitumen-based substance to surfaces for protection against water
