@@ -11,7 +11,7 @@ const Footer = () => {
 
             <footer className="footer p-10 text-white bg-purple-900  pt-10 px-8 lg:px-32">
                 <aside>
-                    <figure className="w-20"><img src="../../../../src/assets/logo.svg" alt="logo" /></figure>
+                    <figure className="w-20"><img src="/images/logo.svg" alt="logo" /></figure>
                     <p>Sheel Waterproofing<br />Providing reliable tech since 1992</p>
                 </aside>
                 <nav>
