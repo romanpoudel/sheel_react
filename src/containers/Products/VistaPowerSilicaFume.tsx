@@ -11,7 +11,9 @@ const VistaPowerSilicaFume = () => {
 
             <TitleBar
                 title="Vista Power Silica Fume"
-                subtitle="(HYBRID TECHNOLOGY SILICA FUME)"
+                subTitle="(HYBRID TECHNOLOGY SILICA FUME)"
+                linkTitle="Products"
+                linkTo="/products"
             />
             <ImageWithContentLeft
                 imageUrl="../src/assets/dummy-img.jpg"

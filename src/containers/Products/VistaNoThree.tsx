@@ -11,7 +11,9 @@ const VistaNoThree = () => {
 
             <TitleBar
                 title="Vista No. Three"
-                subtitle="(QUICK SETTING COMPOUND FOR CEMENT MORTARS & CONCRETE ADDITIVES)"
+                subTitle="(QUICK SETTING COMPOUND FOR CEMENT MORTARS & CONCRETE ADDITIVES)"
+                linkTitle="Products"
+                linkTo="/products"
             />
 
             <ImageWithContentLeft

@@ -9,7 +9,12 @@ const VistaNoTwo = () => {
     return (
         <>
 
-            <TitleBar title="Vista No. 2" subtitle="(RAPID 1 QUICK SETTING/HARDENING COMPOUND FOR CEMENT MORTAR & CONCRETE)" />
+            <TitleBar 
+            title="Vista No. 2" 
+            subTitle="(RAPID 1 QUICK SETTING/HARDENING COMPOUND FOR CEMENT MORTAR & CONCRETE)" 
+            linkTitle="Products"
+            linkTo="/products"
+            />
             <ImageWithContentLeft
                 imageUrl="../../../src/assets/dummy-img.jpg"
                 title="Description"

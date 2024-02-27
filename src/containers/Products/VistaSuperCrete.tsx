@@ -11,7 +11,9 @@ const VistaSuperCrete = () => {
 
             <TitleBar
                 title="Vista Super Crete"
-                subtitle="An acrylic polymer baeed protective cemenfitious coadng for water proofing and Repairing compounds"
+                subTitle="An acrylic polymer baeed protective cemenfitious coadng for water proofing and Repairing compounds"
+                linkTitle="Products"
+                linkTo="/products"
             />
 
             <ImageWithContentLeft
@@ -138,7 +140,7 @@ const VistaSuperCrete = () => {
                     ]}
                 />
             </TitleWithContent>
-           
+
         </>
     )
 }

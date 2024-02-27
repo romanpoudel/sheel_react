@@ -9,7 +9,9 @@ const PolyurethaneWaterproofing = () => {
         <>
 
 
-            <TitleBar title="Polyurethane Waterproofing" />
+            <TitleBar title="Polyurethane Waterproofing" 
+            linkTitle="Services"
+            linkTo="/services"/>
             <ImageWithContentLeft
                 imageUrl="./src/assets/dummy-img.jpg"
                 title="Description"

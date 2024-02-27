@@ -8,7 +8,13 @@ import TitleWithContent from "@/components/elements/TitleWithContent/TitleWithCo
 const VistaIwa = () => {
     return (
         <>
-            <TitleBar title="Vista IWA" subtitle="(SHOTCRETE ACCELERATOR-ALKALI FREE)" />
+            <TitleBar 
+            title="Vista IWA" 
+            subTitle="(SHOTCRETE ACCELERATOR-ALKALI FREE)" 
+            linkTitle="Products"
+            linkTo="/products"
+            />
+            
             <ImageWithContentLeft
                 imageUrl="../../../src/assets/dummy-img.jpg"
                 title="Description"

@@ -9,7 +9,8 @@ const CementitiousWaterproofing = () => {
     return (
         <>
 
-            <TitleBar title="Cementitious Waterproofing" />
+            <TitleBar title="Cementitious Waterproofing" linkTitle="Services"
+                linkTo="/services"/>
             <ImageWithContentLeft
                 imageUrl="../src/assets/dummy-img.jpg"
                 title="Description"

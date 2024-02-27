@@ -30,7 +30,7 @@ const Home = () => {
 
       <section className="bg-purple-900 text-white py-20">
 
-        <WordsFromCeo/>
+        <WordsFromCeo />
 
       </section>
 

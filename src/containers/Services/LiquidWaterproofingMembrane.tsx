@@ -8,7 +8,9 @@ const LiquidWaterproofingMembrane = () => {
     return (
         <>
 
-            <TitleBar title='Liquid Waterproofing Membrane' />
+            <TitleBar title='Liquid Waterproofing Membrane' 
+            linkTitle="Services"
+            linkTo="/services"/>
 
             <ImageWithContentLeft
                 imageUrl='./src/assets/dummy-img.jpg'

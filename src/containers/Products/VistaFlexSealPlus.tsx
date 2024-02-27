@@ -10,7 +10,9 @@ const VistaFlexSealPlus = () => {
         <>
 
             <TitleBar title="Vista Flex Seal +"
-                subtitle="(2K Acrylic Cementitious Waterproofing Coating)" />
+                subTitle="(2K Acrylic Cementitious Waterproofing Coating)"
+                linkTitle="Products"
+                linkTo="/products" />
 
             <ImageWithContentLeft
                 imageUrl="../../../src/assets/dummy-img.jpg"

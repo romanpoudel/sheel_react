@@ -9,7 +9,9 @@ const VistaAfaSuper = () => {
     return (
         <>
 
-            <TitleBar title="Vista Afa Super" />
+            <TitleBar title="Vista Afa Super" 
+            linkTitle="Products"
+            linkTo="/products"/>
             < ImageWithContentLeft
                 title="Description"
                 imageUrl="../../../src/assets/dummy-img.jpg"

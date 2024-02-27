@@ -9,7 +9,9 @@ const RoofWaterproofing = () => {
     return (
         <>
 
-            <TitleBar title="Roof Waterproofing" />
+            <TitleBar title="Roof Waterproofing"
+            linkTitle="Services"
+            linkTo="/services" />
             <ImageWithContentLeft
                 title="Description"
                 imageUrl="./src/assets/dummy-img.jpg"

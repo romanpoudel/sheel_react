@@ -11,7 +11,9 @@ const VistaShotX = () => {
 
             <TitleBar
                 title="Vista Shot X"
-                subtitle="High Performance Powder Accelerator For Dry Mix Shotcrete"
+                subTitle="High Performance Powder Accelerator For Dry Mix Shotcrete"
+                linkTitle="Products"
+                linkTo="/products"
             />
 
             <ImageWithContentLeft
@@ -70,7 +72,7 @@ const VistaShotX = () => {
                                 "White powder",
                                 "Initial setting time within 3 Min. \n\n Final settign time within 12 Min."
                             ],
-                            
+
                         ]
                     }}
                 />

@@ -10,7 +10,9 @@ const VistaSuperplastHs1000 = () => {
         <>
             <TitleBar
                 title="Vista Superplast HS 1000"
-                subtitle="(HIGH PERFORMANCE SUPER-PLASTICIZING ADMIXTURE)"
+                subTitle="(HIGH PERFORMANCE SUPER-PLASTICIZING ADMIXTURE)"
+                linkTitle="Products"
+                linkTo="/products"
             />
             <ImageWithContentLeft
                 title="Description"

@@ -9,7 +9,9 @@ const VistaCrystalPlus = () => {
         <>
 
 
-            <TitleBar title='Vista Crystal Plus' />
+            <TitleBar title='Vista Crystal Plus' 
+            linkTitle="Products"
+            linkTo="/products"/>
             <ImageWithContentLeft
                 title='Description'
                 imageUrl="../../../src/assets/dummy-img.jpg"

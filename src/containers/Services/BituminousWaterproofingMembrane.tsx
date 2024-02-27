@@ -11,6 +11,8 @@ const BituminousWaterproofingMembrane = () => {
         <>
             <TitleBar
                 title="Bituminous Waterproofing Membrane"
+                linkTitle="Services"
+                linkTo="/services"
             />
             <ImageWithContentLeft
                 imageUrl='../src/assets/dummy-img.jpg'

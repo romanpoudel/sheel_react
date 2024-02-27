@@ -1,8 +1,12 @@
+import { Link } from "react-router-dom";
+
 interface TitleBarProps{
     title:string;
-    subtitle?:string;
+    subTitle?:string;
+    linkTitle?:string;
+    linkTo?:string;
 }
-const TitleBar : React.FC<TitleBarProps> = ({title,subtitle}) => {
+const TitleBar : React.FC<TitleBarProps> = ({title,subTitle, linkTitle, linkTo}) => {
     return (
 
         <>
@@ -12,11 +16,9 @@ const TitleBar : React.FC<TitleBarProps> = ({title,subtitle}) => {
                         <div className="text-center">
                             <h1 className="text-white text-5xl font-extrabold animate-pulse">{title}</h1>
                             <div className="py-2 flex justify-center gap-4">
-                                <div className="navbar-item cursor-pointer text-white text-lg hover:text-blue-400 "
-                                    data-page="./pages/index_content.html"> <a>Home</a> </div>
+                                <div className="navbar-item cursor-pointer text-white text-lg hover:text-blue-400 "><Link to="/">Home</Link></div>
                                 <i className="ri-donut-chart-fill text-xl text-white hover:animate-spin "></i>
-                                <div className="navbar-item cursor-pointer text-white text-lg hover:text-blue-400 "
-                                    data-page="./pages/index_content.html"> <a>Services</a> </div>
+                                <div className="navbar-item cursor-pointer text-white text-lg hover:text-blue-400"> <Link to={linkTo}>{linkTitle}</Link> </div>
                             </div>
                         </div>
                     </div>
@@ -29,7 +31,7 @@ const TitleBar : React.FC<TitleBarProps> = ({title,subtitle}) => {
                 <div className="py-20">
 
                     <p className="title-text-size text-purple-900 animated-content">{title}</p>
-                    <p className="text-md pt-2">{subtitle}</p>
+                    <p className="text-md pt-2">{subTitle}</p>
                     <div className="divider divider-primary"></div>
                 </div>
             </div>

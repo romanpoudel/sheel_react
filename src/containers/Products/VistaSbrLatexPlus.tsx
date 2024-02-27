@@ -12,7 +12,9 @@ const VistaSbrLatexPlus = () => {
 
             <TitleBar
                 title="Vista SBR Latex Plus"
-                subtitle="(PREMIUM SBR BASED POLYMER FOR REPAIR AND WATERPROOFING)"
+                subTitle="(PREMIUM SBR BASED POLYMER FOR REPAIR AND WATERPROOFING)"
+                linkTitle="Products"
+                linkTo="/products"
             />
 
             <ImageWithContentLeft
@@ -220,7 +222,7 @@ const VistaSbrLatexPlus = () => {
 
             {/* Remove start */}
             <>
-            
+
             </>
             {/* Remove ends */}
 

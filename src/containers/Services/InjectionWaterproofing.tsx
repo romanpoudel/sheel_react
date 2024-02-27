@@ -8,7 +8,8 @@ const InjectionWaterproofing = () => {
     return (
         <>
 
-            <TitleBar title="Injection WaterProofing" />
+            <TitleBar title="Injection WaterProofing" linkTitle="Services"
+                linkTo="/services"/>
 
             <ImageWithContentLeft
                 title="Description"
