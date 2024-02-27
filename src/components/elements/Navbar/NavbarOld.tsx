@@ -85,7 +85,7 @@ function NavbarOld() {
           {/* Logo and brand name */}
           <div className="flex">
             <figure>
-              <img src="../../src/assets/logo.svg" alt="logo" className="w-14 hidden lg:block" />
+              <img src="/images/logo.svg" alt="logo" className="w-14 hidden lg:block" />
             </figure>
 
             <Link to="">
