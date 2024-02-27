@@ -87,7 +87,13 @@ function NavbarOld() {
             <figure>
               <img src="../../src/assets/logo.svg" alt="logo" className="w-14 hidden lg:block" />
             </figure>
-            <a className="btn btn-ghost text-xl"><Link to="/">Sheel Waterproofing</Link></a>
+
+            <Link to="">
+              <p className="btn btn-ghost text-xl">
+              Sheel <span className="hidden lg:block">Waterproofing</span>
+              </p>
+            </Link>
+            
           </div>
         </div>
 
@@ -134,7 +140,9 @@ function NavbarOld() {
           </ul>
         </div >
 
-        <div className="navbar-end flex gap-4">
+        <div className="navbar-end flex gap-12">
+          
+          
           <Input
             type="text"
             id="searchInput"

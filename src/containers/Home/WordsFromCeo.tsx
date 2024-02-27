@@ -7,7 +7,7 @@ const WordsFromCeo = () => {
             <div className="grid grid-cols-11 items-start px-8 lg:px-32">
                 <div className="col-span-11 lg:col-span-5">
                     <figure className="">
-                        <img className="rounded-lg" src="./src/assets/dummy-img.jpg" alt="" />
+                        <img className="rounded-lg" src="/public/dummy-img.jpg" alt="" />
                     </figure>
                 </div>
                 <div className="col-span-11 lg:col-start-7 lg:col-span-5 py-4">
