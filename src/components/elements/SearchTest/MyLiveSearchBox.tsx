@@ -99,42 +99,42 @@ const MyLiveSearch: FC<Props> = ({
     }, [value]);
 
     return (
-            <div
-                tabIndex={1}
-                onBlur={resetSearchComplete}
-                onKeyDown={handleKeyDown}
-                className="relative"
-            >
-                <input
-                    value={defaultValue}
-                    onChange={handleChange}
-                    type="text"
-                    className="flex h-10  rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 text-black  mr-8 lg:mr-16 w-40 lg:w-60"
-                    placeholder="Search your query..."
-                />
+        <div
+            tabIndex={1}
+            onBlur={resetSearchComplete}
+            onKeyDown={handleKeyDown}
+            className="relative"
+        >
+            <input
+                value={defaultValue}
+                onChange={handleChange}
+                type="text"
+                className="flex h-10  rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 text-black  mr-8 lg:mr-16 w-40 lg:w-60"
+                placeholder="Search"
+            />
 
-                {/* Search Results Container */}
-                {showResults && (
-                    <div className="absolute mt-1 w-full p-2 bg-purple-900 shadow-lg rounded-bl rounded-br max-h-56 overflow-y-auto">
-                        {results.map((item, index) => {
-                            return (
-                                <div
-                                    key={index}
-                                    onMouseDown={() => handleSelection(index)}
-                                    ref={index === focusedIndex ? resultContainer : null}
-                                    style={{
-                                        backgroundColor:
-                                            index === focusedIndex ? "rgba(0,0,0,0.1)" : "",
-                                    }}
-                                    className="cursor-pointer hover:bg-black hover:bg-opacity-10 p-2"
-                                >
-                                    {renderItem(item)}
-                                </div>
-                            );
-                        })}
-                    </div>
-                )}
-            </div>
+            {/* Search Results Container */}
+            {showResults && (
+                <div className="absolute mt-1 w-full p-2 bg-purple-900 shadow-lg rounded-bl rounded-br max-h-56 overflow-y-auto">
+                    {results.map((item, index) => {
+                        return (
+                            <div
+                                key={index}
+                                onMouseDown={() => handleSelection(index)}
+                                ref={index === focusedIndex ? resultContainer : null}
+                                style={{
+                                    backgroundColor:
+                                        index === focusedIndex ? "rgba(0,0,0,0.1)" : "",
+                                }}
+                                className="cursor-pointer hover:bg-black hover:bg-opacity-10 p-2"
+                            >
+                                {renderItem(item)}
+                            </div>
+                        );
+                    })}
+                </div>
+            )}
+        </div>
     );
 };
 
