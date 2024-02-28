@@ -112,22 +112,25 @@ const BituminousWaterproofingMembrane = () => {
 
             <TitleWithContent title="Different Forms of Using Bitumen in Waterproofing">
                 <Paragraph content="Various forms of bitumen used for waterproofing include:" />
-                <ImageWithContentLeft imageUrl="../src/assets/dummy-img.jpg"
-                    title="Bituminous Paint"
-                    content="Bituminous paints consist of a mixture of bitumen with an organic solvent. Adding polymer to them leads to their stability and better performance in waterproofing. They are generally applied to the surface by spray, roller, or brush. Bituminous paints usually do not need to be preheated to use and are very stable. It can apply above and below wet surfaces. It can be used to waterproof concrete, metal, and wood structures, such as buildings, iron pipes, wooden boats, and so on." />
 
-
-                <ImageWithContentRight imageUrl="../src/assets/dummy-img.jpg"
-                    title="Bituminous Membrane"
-                    content="The bituminous membrane is generally used for sealing low-slope roofs. These types of roofs collect rainwater, which penetrates into the structure and damages the building.
-                These membranes generally have additives. In the production process, they have been applied to glass wool rolls to prevent cracking during the winter.
-                To stick them on the surfaces, the bituminous rolls are heated by a torch." />
-
-                <ImageWithContentLeft imageUrl="../src/assets/dummy-img.jpg"
-                    title="Bituminous Coating"
-                    content="The bituminous coating is mainly made up of bitumen that contains polymers and other additives to improve its waterproof properties.
-                    The bituminous coating needs to be preheated. It is used for sealing concrete, building bases, swimming pools, and similar cases where the upper layer is water." />
             </TitleWithContent>
+            <ImageWithContentLeft imageUrl="/images/dummy-img.jpg"
+                title="Bituminous Paint"
+                content="Bituminous paints consist of a mixture of bitumen with an organic solvent. Adding polymer to them leads to their stability and better performance in waterproofing. They are generally applied to the surface by spray, roller, or brush. Bituminous paints usually do not need to be preheated to use and are very stable. It can apply above and below wet surfaces. It can be used to waterproof concrete, metal, and wood structures, such as buildings, iron pipes, wooden boats, and so on."
+            />
+
+
+            <ImageWithContentRight imageUrl="/images/dummy-img.jpg"
+                title="Bituminous Membrane"
+                content="The bituminous membrane is generally used for sealing low-slope roofs. These types of roofs collect rainwater, which penetrates into the structure and damages the building. These membranes generally have additives. In the production process, they have been applied to glass wool rolls to prevent cracking during the winter.
+                To stick them on the surfaces, the bituminous rolls are heated by a torch."
+            />
+
+            <ImageWithContentLeft imageUrl="/images/dummy-img.jpg"
+                title="Bituminous Coating"
+                content="The bituminous coating is mainly made up of bitumen that contains polymers and other additives to improve its waterproof properties.
+                    The bituminous coating needs to be preheated. It is used for sealing concrete, building bases, swimming pools, and similar cases where the upper layer is water."
+            />
 
 
             <TitleWithContent title=" Steps for Bituminous Protective coating waterproofing ">

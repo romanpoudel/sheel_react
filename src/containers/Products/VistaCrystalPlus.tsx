@@ -9,9 +9,9 @@ const VistaCrystalPlus = () => {
         <>
 
 
-            <TitleBar title='Vista Crystal Plus' 
-            linkTitle="Products"
-            linkTo="/products"/>
+            <TitleBar title='Vista Crystal Plus'
+                linkTitle="Products"
+                linkTo="/products" />
             <ImageWithContentLeft
                 title='Description'
                 imageUrl="/images/dummy-img.jpg"
@@ -87,40 +87,35 @@ const VistaCrystalPlus = () => {
                     ]}
                 />
 
-                <TitleWithContent title="Technical Data">
+            </TitleWithContent>
+            <TitleWithContent title="Technical Data">
 
-                    <Table
-                        items={
-                            {
-                                headings: [],
-                                rows: [
-                                    [
-                                        "Form",
-                                        "Powder",
-                                    ],
-                                    [
-                                        "Color",
-                                        "Grey"
-                                    ],
-                                    [
-                                        "Density of dry mortar",
-                                        "0.97 ± 0.1 Kg/l"
-                                    ],
-                                    [
-                                        "Maximum chloride content",
-                                        "Chloride-free"
-                                    ],
-                                ]
-                            }
+                <Table
+                    items={
+                        {
+                            headings: [],
+                            rows: [
+                                [
+                                    "Form",
+                                    "Powder",
+                                ],
+                                [
+                                    "Color",
+                                    "Grey"
+                                ],
+                                [
+                                    "Density of dry mortar",
+                                    "0.97 ± 0.1 Kg/l"
+                                ],
+                                [
+                                    "Maximum chloride content",
+                                    "Chloride-free"
+                                ],
+                            ]
                         }
+                    }
 
-                    />
-
-                </TitleWithContent>
-
-
-
-
+                />
 
             </TitleWithContent>
 

@@ -10,43 +10,46 @@ const RoofWaterproofing = () => {
         <>
 
             <TitleBar title="Roof Waterproofing"
-            linkTitle="Services"
-            linkTo="/services" />
+                linkTitle="Services"
+                linkTo="/services" />
             <ImageWithContentLeft
                 title="Description"
                 imageUrl="/images/dummy-img.jpg"
                 content="Roof waterproofing is the process of protecting a building's roof from water damage by applying materials that prevent water from penetrating the roof surface. Various waterproofing materials, such as asphalt coatings, liquid-applied membranes, and pre-formed sheet membranes, can be applied to existing or new structures, creating a barrier that prevents water from seeping into the building. Additionally, it will support the reduction of heat that is absorbed by the roof. When choosing a roof waterproofing option, it is important to consider different factors such as the climate, type of roof, expected life span, and the intended use of the building."
             />
 
-            <ListWithDescription
-                items={[
-                    {
-                        title: "SurfBuilt-up roofing (BUR):",
-                        content: [
-                            "This traditional roofing system consists of multiple layers of waterproofing material built up on the roof surface. The layers are sealed together to form a waterproof barrier."
-                        ]
-                    },
-                    {
-                        title: "Single-ply roofing:",
-                        content: [
-                            "This is a type of roofing system commonly used for flat or low-slope roofs that consists of a single layer of waterproofing material, such as TPO or PVC. The material is typically heat-welded or glued to create a seamless, waterproof barrier."
-                        ]
-                    },
-                    {
-                        title: "Metal roofing:",
-                        content: [
-                            "Metal roofing systems can be waterproofed by applying a coating or membrane to the surface. The coating or membrane provides a barrier against water penetration and protects the metal from corrosion and other forms of damage."
-                        ]
-                    },
-                    {
-                        title: "Spray foam roofing:",
-                        content: [
-                            "This roofing system consists of a layer of spray foam insulation applied to the roof surface. The foam is then coated with a waterproofing material to create a seamless and waterproof barrier.",
-                        ]
-                    }
+            <div className="px-8 lg:px-32 pt-4">
+                <ListWithDescription
+                    items={[
+                        {
+                            title: "SurfBuilt-up roofing (BUR):",
+                            content: [
+                                "This traditional roofing system consists of multiple layers of waterproofing material built up on the roof surface. The layers are sealed together to form a waterproof barrier."
+                            ]
+                        },
+                        {
+                            title: "Single-ply roofing:",
+                            content: [
+                                "This is a type of roofing system commonly used for flat or low-slope roofs that consists of a single layer of waterproofing material, such as TPO or PVC. The material is typically heat-welded or glued to create a seamless, waterproof barrier."
+                            ]
+                        },
+                        {
+                            title: "Metal roofing:",
+                            content: [
+                                "Metal roofing systems can be waterproofed by applying a coating or membrane to the surface. The coating or membrane provides a barrier against water penetration and protects the metal from corrosion and other forms of damage."
+                            ]
+                        },
+                        {
+                            title: "Spray foam roofing:",
+                            content: [
+                                "This roofing system consists of a layer of spray foam insulation applied to the roof surface. The foam is then coated with a waterproofing material to create a seamless and waterproof barrier.",
+                            ]
+                        }
 
-                ]}
-            />
+                    ]}
+                />
+
+            </div>
 
             <TitleWithContent title="Importance of Roof Waterproofing">
                 <CustomLists
@@ -124,14 +127,14 @@ const RoofWaterproofing = () => {
                             title: "Final Words:",
                             content: [
                                 "Besides, you may need to consult an experienced contractor who can help you in choosing the right waterproofing solution, based on your requirements.",
-                                
+
                             ]
                         }
                     ]}
 
                 />
 
-                <Paragraph content="You can consider different options for roof waterproofing solutions by sheel waterproofing that offer great bonding strength and ensures uniform film thickness throughout the surface. One of the best things about these solutions is there is no need to break roofs for their application."/>
+                <Paragraph content="You can consider different options for roof waterproofing solutions by sheel waterproofing that offer great bonding strength and ensures uniform film thickness throughout the surface. One of the best things about these solutions is there is no need to break roofs for their application." />
 
             </TitleWithContent>
         </>

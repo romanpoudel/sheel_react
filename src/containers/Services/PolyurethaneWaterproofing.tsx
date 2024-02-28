@@ -9,9 +9,9 @@ const PolyurethaneWaterproofing = () => {
         <>
 
 
-            <TitleBar title="Polyurethane Waterproofing" 
-            linkTitle="Services"
-            linkTo="/services"/>
+            <TitleBar title="Polyurethane Waterproofing"
+                linkTitle="Services"
+                linkTo="/services" />
             <ImageWithContentLeft
                 imageUrl="/images/dummy-img.jpg"
                 title="Description"
@@ -78,7 +78,11 @@ const PolyurethaneWaterproofing = () => {
 
             <TitleWithContent title="Applying polyurethane waterproofing products">
                 <Paragraph content="Applying polyurethane waterproofing products typically involves several steps to ensure proper adhesion, coverage, and curing. Below is a general guide for applying liquid-applied polyurethane waterproofing membranes:" />
-                <TitleWithContent title="Tools and Materials Needed:" />
+
+
+
+            </TitleWithContent>
+            <TitleWithContent title="Tools and Materials Needed:">
                 <ListWithDescription
                     items={[
                         {
@@ -113,7 +117,6 @@ const PolyurethaneWaterproofing = () => {
                         }
                     ]}
                 />
-
             </TitleWithContent>
 
 
@@ -180,9 +183,10 @@ const PolyurethaneWaterproofing = () => {
                         }
                     ]}
                 />
+                <Paragraph content="By following these steps and adhering to the manufacturer's instructions, you can achieve effective and long-lasting waterproofing protection with polyurethane products." />
             </TitleWithContent>
 
-            <Paragraph content="By following these steps and adhering to the manufacturer's instructions, you can achieve effective and long-lasting waterproofing protection with polyurethane products." />
+
         </>
     )
 }

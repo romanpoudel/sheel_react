@@ -2,7 +2,7 @@ const ImageWithContentRight = ({ imageUrl, title, content }: { imageUrl: string,
     return (
 
         <>
-            <div className="grid grid-cols-11">
+            <div className="grid grid-cols-11 items-start px-8 lg:px-32">
                 <div className="col-span-11 lg:col-span-5">
 
                     <p className="title-text-size text-purple-900 animated-content">{title}</p>
