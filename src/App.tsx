@@ -7,19 +7,25 @@ import { publicRoutes } from "./routes/publicRoutes";
 import "@fontsource/montserrat"; // Defaults to weight 400
 import "@fontsource/montserrat/400.css"; // Specify weight
 import "@fontsource/montserrat/400-italic.css"; // Specify weight and style
+import ScrollToTop from "./components/elements/ScrollToTop/ScrollToTop";
 
 function App() {
   return (
     <>
-      <SearchProvider>
-        <Routes>
-          <Route path="/" element={<MainLayout />}>
-            {publicRoutes.map((route) => (
-              <Route path={route.path} element={route.component} />
-            ))}
-          </Route>
-        </Routes>
-      </SearchProvider>
+      <div className="App">
+        
+        <SearchProvider>
+          <Routes>
+            <Route path="/" element={<MainLayout />}>
+              {publicRoutes.map((route) => (
+                <Route path={route.path} element={route.component} />
+              ))}
+            </Route>
+          </Routes>
+        </SearchProvider>
+        <ScrollToTop />
+      </div>
+
     </>
   );
 }
