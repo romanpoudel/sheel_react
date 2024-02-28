@@ -11,7 +11,7 @@ const PolyurethaneWaterproofing = () => {
 
             <TitleBar title="Polyurethane Waterproofing" />
             <ImageWithContentLeft
-                imageUrl="./src/assets/dummy-img.jpg"
+                imageUrl="/images/dummy-img.jpg"
                 title="Description"
                 content="Polyurethane waterproofing stands as a pinnacle of modern construction technology, offering unparalleled protection against water infiltration and damage to structures. As a versatile and highly effective solution, polyurethane waterproofing has revolutionized the way we safeguard buildings, bridges, tunnels, and other critical infrastructure from the corrosive effects of moisture.
 

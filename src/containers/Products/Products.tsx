@@ -9,7 +9,8 @@ interface ProductProps {
   cardContent: string;
 }
 
-const Products: React.FC = () => {
+const Products = ({ show }) => {
+  console.log(show);
   const searchContext = useSearch();
   const searchQuery = searchContext?.searchQuery;
 
@@ -116,9 +117,10 @@ const Products: React.FC = () => {
 
   return (
     <>
-      <TitleWithContent title="Products"/>
+      <TitleWithContent title="Products" />
       <div className="flex flex-wrap justify-center gap-12">
         {products
+          .slice(0, show)
           .filter((product: ProductProps) => {
             return filteredProducts({ product });
           })

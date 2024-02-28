@@ -25,13 +25,11 @@ const Home = () => {
       <Services />
 
       <div className="mb-2">
-        <Products />
+        <Products show={3} />
       </div>
 
       <section className="bg-purple-900 text-white py-20">
-
-        <WordsFromCeo/>
-
+        <WordsFromCeo />
       </section>
 
       <section>

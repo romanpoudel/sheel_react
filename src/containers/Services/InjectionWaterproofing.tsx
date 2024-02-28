@@ -12,7 +12,7 @@ const InjectionWaterproofing = () => {
 
             <ImageWithContentLeft
                 title="Description"
-                imageUrl="./src/assets/dummy-img.jpg"
+                imageUrl="/images/dummy-img.jpg"
                 content="Injection is a procedure of pumping cement-based, polyurethane-based, epoxy-based or acrylate-based material into damaged or cracked structures to securely seal leaks, repair compromised structures and make them watertight again for the long term. Injection waterproofing represents a sophisticated approach to combating water infiltration in concrete structures. Unlike traditional methods that rely on surface coatings or membranes, injection waterproofing penetrates the very heart of the structure, addressing vulnerabilities at their source. By injecting specialized waterproofing materials directly into cracks, voids, and porous areas, this technique creates a seamless barrier that fortifies the structure against water penetration, mitigating the risk of leaks, moisture damage, and structural decay."
             />
 

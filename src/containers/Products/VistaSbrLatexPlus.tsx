@@ -17,7 +17,7 @@ const VistaSbrLatexPlus = () => {
 
             <ImageWithContentLeft
                 title='Description'
-                imageUrl="../src/assets/dummy-img.jpg"
+                imageUrl="/images/dummy-img.jpg"
                 content='Dr. Vista SBR Latex Plus is a milky-white, styrene- butadiene co-polymer latex liquid, developed to improve the waterproofing, bonding, physical properties and integrity of cementitious mortars, screeds and concretes.It reduces the mixing time through high dispersion of the polymer. Dr. Vista SBR Latex Plus improves durability, compressive, tensile and flexural properties of modified mixes.It is suitable for horizontal or vertical applications, both internally and externally. Meets the requirements of BS 6319 part II:1983 & ASTM C 190-85 standards.'
             />
             <TitleWithContent title='Area of Application'>

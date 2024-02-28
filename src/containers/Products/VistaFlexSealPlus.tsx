@@ -13,7 +13,7 @@ const VistaFlexSealPlus = () => {
                 subtitle="(2K Acrylic Cementitious Waterproofing Coating)" />
 
             <ImageWithContentLeft
-                imageUrl="../../../src/assets/dummy-img.jpg"
+                imageUrl="/images/dummy-img.jpg"
                 title="Description"
                 content="Vista Flex Seal+ is cementitious waterproofing coating is ready to use two component- carefully graded aggregates in combination with selected acrylic polymer. Vista Flex Seal is highly recommended to waterproof concrete."
             />

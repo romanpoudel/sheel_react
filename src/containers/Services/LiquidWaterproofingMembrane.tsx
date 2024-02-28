@@ -11,7 +11,7 @@ const LiquidWaterproofingMembrane = () => {
             <TitleBar title='Liquid Waterproofing Membrane' />
 
             <ImageWithContentLeft
-                imageUrl='./src/assets/dummy-img.jpg'
+                imageUrl='/images/dummy-img.jpg'
                 title='Description'
                 content="Liquid-applied membrane (LAM) is a monolithic, fully-bonded, liquid-based coating suitable for many waterproofing and roofing applications. The coating cures to form a rubber-like elastomeric waterproof membrane and may be applied over many substrates, including asphalt, bitumen and concrete."
             />

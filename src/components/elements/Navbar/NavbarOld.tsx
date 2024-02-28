@@ -51,7 +51,7 @@ function NavbarOld() {
                 <Link to="/about">About Us</Link>
               </li>
               <li>
-                <Link to="services">Services</Link>
+                <Link to="/services">Services</Link>
               </li>
               {/* 
               <li>

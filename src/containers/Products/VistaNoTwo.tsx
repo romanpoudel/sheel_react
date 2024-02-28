@@ -11,7 +11,7 @@ const VistaNoTwo = () => {
 
             <TitleBar title="Vista No. 2" subtitle="(RAPID 1 QUICK SETTING/HARDENING COMPOUND FOR CEMENT MORTAR & CONCRETE)" />
             <ImageWithContentLeft
-                imageUrl="../../../src/assets/dummy-img.jpg"
+                imageUrl="/images/dummy-img.jpg"
                 title="Description"
                 content="VISTA NO - 2 is an extra fast setting waterproof / plugging compound liquid."
             />
