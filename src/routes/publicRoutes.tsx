@@ -1,4 +1,3 @@
-import About from "@/containers/About/About";
 import BituminousWaterproofingMembrane from "@/containers/Services/BituminousWaterproofingMembrane";
 import CementitiousWaterproofingMembrane from "@/containers/Services/CementitiousWaterproofing";
 import ContactUsPage from "@/containers/Contact/ContactUsPage";
@@ -25,6 +24,7 @@ import VistaSuperPlastHs from "@/containers/Products/VistaSuperplastHs";
 import VistaSuperplastHs1000 from "@/containers/Products/VistaSuperplastHs1000";
 import VistaSealIt from "@/containers/Products/VistaSealIt";
 import AboutUsPage from "@/containers/About/AboutUsPage";
+import MyApp from "@/components/elements/SearchTest/SearchInput";
 
 export const publicRoutes = [
   {
@@ -132,4 +132,8 @@ export const publicRoutes = [
     path: "services/sheet-membranes",
     component: <SheetMembranes />,
   },
+  {
+    path: "/live-search",
+    component: <MyApp/>
+  }
 ];
